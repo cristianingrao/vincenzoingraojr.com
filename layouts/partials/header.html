@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+    <title>{{ if .IsHome}}{{.Site.Title}}{{end}}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL}}index.xml" title="Vincenzo Ingrao - Sito ufficiale"/>
+    <link rel='stylesheet' href='{{.Site.BaseURL}}css/main.css' type='text/css' media='all'/>
+</head>
+<div class="container-fluid">
+<header>
+    <div class="site-title">
+        <a href="{{.Site.BaseURL}}" title="Sito ufficiale di Vincenzo Ingrao">vincenzoingrao.com<span class="cursor">|</span></a>
+    </div>
+    <div class="site-title-m">
+        <a href="{{.Site.BaseURL}}" title="Sito ufficiale di Vincenzo Ingrao">VI<span class="cursor">|</span></a>
+    </div>
+    <nav class="header-items">
+        <a href="/articoli/" class="header-link" title="Qui trovi tutti gli articoli che ho scritto">Articoli</a>
+        <a href="/newsletter" class="header-link" title="Iscriviti alla mia newsletter">Newsletter</a>
+        <a href="/info-e-contatti" class="header-link" title="Info e contatti di Vincenzo Ingrao Jr.">Info e contatti</a>
+    </nav>
+    <nav class="m-menu">
+        <ul class="m-menu-list">
+            <li><a href="/articoli/" class="header-link" title="Qui trovi tutti gli articoli che ho scritto">Articoli</a></li>
+            <li><a href="/newsletter" class="header-link" title="Iscriviti alla mia newsletter">Newsletter</a></li>
+            <li><a href="/info-e-contatti" class="header-link" title="Info e contatti di Vincenzo Ingrao Jr.">Info e contatti</a></li>
+        </ul>
+    </nav>
+</header>
