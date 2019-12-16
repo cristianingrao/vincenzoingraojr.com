@@ -225,6 +225,7 @@ span.cursor {
         padding-left: 22px;
         font-family: Inter;
         font-weight: 700;
+        font-style: italic;
         color: black;
         font-size: 22px;
         float: left;
