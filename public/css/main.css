@@ -217,28 +217,64 @@ span.cursor {
         background-color: #fff;
     }
     .site-title {
-        display: block;
-        visibility: visible;
+        display: none;
+        visibility: hidden;
         padding-left: 12px;
     }
     .site-title-m {
-        padding-left: 22px;
+        display: block;
+        visibility: visible;
+        padding-left: 42px;
         font-family: Inter;
         font-weight: 700;
+        font-style: italic;
         color: black;
         font-size: 22px;
         float: left;
-        display: none;
-        visibility: hidden;
     }
     .m-menu {
         visibility: visible;
-        display: none;
+        display: block;
         width: 100%;
         top: 0;
         left: 0;
         right: 0;
-        bottom: 51px;
+        bottom: 52px;
         background-color: #4166f5;
+        position: fixed;
+    }
+    .container-fluid {
+        width: 100%;
+        top: 0;
+        bottom: 52px;
+    }
+    ul.m-menu-list {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 60px;
+        overflow-y: hidden;
+        color: white;
+        list-style-type: decimal-leading-zero;
+        font-style: bold;
+        font-weight: 700;
+        font-size: 16px;
+        position: relative;
+    }
+    h3.m-menu-title {
+        color: black;
+        margin-top: 60px;
+        margin-left: 52px;
+        font-weight: 700;
+        position: relative;
+    }
+    li {
+        margin-bottom: 6px;
+    }
+    .m-menu-list a {
+        color: white;
+    }
+    .m-menu-list a:hover, .m-menu-list a:active {
+        color: white;
+        text-decoration: underline;
     }
 }
