@@ -342,7 +342,7 @@ span.cursor {
         box-sizing: border-box;
         background-color: transparent;
         width: 30px;
-	    height: 27px;
+	    height: 25px;
     }
     .menu-button span {
         background-color: black;
@@ -378,5 +378,6 @@ span.cursor {
     }
     .menu-button:active {
         margin-top: -7px;
+        height: 32px;
     }
 }
