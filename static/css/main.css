@@ -187,15 +187,7 @@ span.cursor {
 	  color: black;
 	}
 }
-.menu-button {
-    visibility: hidden;
-    display: none;
-}
 .m-menu {
-    visibility: hidden;
-    display: none;
-}
-input[type="checkbox"] {
     visibility: hidden;
     display: none;
 }
@@ -243,16 +235,16 @@ input[type="checkbox"] {
         top: 0;
         left: 0;
         right: 0;
-        bottom: 51px;
+        bottom: 52px;
         background-color: #4166f5;
         position: fixed;
         -webkit-transition: all 0.6s ease;
-	transition: all 0.6s ease;
+	    transition: all 0.6s ease;
     }
     .container-fluid {
         width: 100%;
         top: 0;
-        bottom: 51px;
+        bottom: 52px;
     }
     ul.m-menu-list {
         margin-left: 40px;
@@ -284,8 +276,51 @@ input[type="checkbox"] {
         color: white;
         text-decoration: underline;
     }
-    input[type="checkbox"]:checked ~ .m-menu{
-        visibility: visible;
-        display: block;
+    span.cursor {
+        -webkit-animation: 1s blink step-end infinite;
+        -moz-animation: 1s blink step-end infinite;
+        -ms-animation: 1s blink step-end infinite;
+        -o-animation: 1s blink step-end infinite;
+        animation: 1s blink step-end infinite;
+    }
+    @keyframes blink {
+        from, to {
+          color: transparent;
+        }
+        50% {
+          color: #4166f5;
+        }
+    }
+    @-moz-keyframes blink {
+        from, to {
+          color: transparent;
+        }
+        50% {
+          color: #4166f5;
+        }
+    }
+    @-webkit-keyframes blink {
+        from, to {
+          color: transparent;
+        }
+        50% {
+          color: #4166f5;
+        }
+    }
+    @-ms-keyframes blink {
+        from, to {
+          color: transparent;
+        }
+        50% {
+          color: #4166f5;
+        }
+    }
+    @-o-keyframes blink {
+        from, to {
+          color: transparent;
+        }
+        50% {
+          color: #4166f5;
+        }
     }
 }
