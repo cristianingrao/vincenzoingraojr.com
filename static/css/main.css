@@ -243,16 +243,16 @@ input[type="checkbox"] {
         top: 0;
         left: 0;
         right: 0;
-        bottom: 52px;
+        bottom: 51px;
         background-color: #4166f5;
         position: fixed;
         -webkit-transition: all 0.6s ease;
-	    transition: all 0.6s ease;
+	transition: all 0.6s ease;
     }
     .container-fluid {
         width: 100%;
         top: 0;
-        bottom: 52px;
+        bottom: 51px;
     }
     ul.m-menu-list {
         margin-left: 40px;
@@ -284,7 +284,6 @@ input[type="checkbox"] {
         color: white;
         text-decoration: underline;
     }
-    
     input[type="checkbox"]:checked ~ .m-menu{
         visibility: visible;
         display: block;
