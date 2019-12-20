@@ -294,6 +294,8 @@ span.cursor {
         visibility: visible;
         display: block;
         position: relative;
+        -webkit-transition: all 0.3s ease;
+    	transition: all 0.3s ease;
     }
     .menu-button span:nth-child(1) {
         top: 0;
@@ -304,8 +306,20 @@ span.cursor {
     .menu-button span:nth-child(3) {
         top: 14px;
     }
-    .menu-button.clicked span:nth-child(2) {
+    .menu-button:active span:nth-child(2) {
         width: 0;
     }
-    
+    .menu-button:active span:nth-child(1) {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        top: 15.899px;
+    }
+    .menu-button:active span:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        bottom: 15.75px;
+    }
+    .menu-button:active {
+        padding-top: 0px;
+    }
 }
