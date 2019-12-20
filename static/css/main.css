@@ -191,6 +191,10 @@ span.cursor {
     visibility: hidden;
     display: none;
 }
+.menu-button {
+    display: none;
+    visibility: hidden;
+}
 @media (max-width: 992px) {
     .sides, .right-side, .left-side {
         display: none;
@@ -250,7 +254,7 @@ span.cursor {
         margin-left: 40px;
         margin-right: 40px;
         margin-bottom: 60px;
-        overflow-y: clip;
+        overflow-y: hidden;
         color: white;
         list-style-type: decimal-leading-zero;
         font-style: bold;
