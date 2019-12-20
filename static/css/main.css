@@ -369,12 +369,12 @@ span.cursor {
     .menu-button:active span:nth-child(1) {
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
-        top: 15.899px;
+        top: 15.809px;
     }
     .menu-button:active span:nth-child(3) {
         -webkit-transform: rotate(-45deg);
         transform: rotate(-45deg);
-        bottom: 15.75px;
+        bottom: 15.899px;
     }
     .menu-button:active {
         margin-top: -7px;
