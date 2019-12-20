@@ -231,6 +231,7 @@ span.cursor {
         color: black;
         font-size: 22px;
         float: left;
+        z-index: 2;
     }
     .m-menu {
         visibility: hidden;
@@ -292,7 +293,7 @@ span.cursor {
           color: transparent;
         }
         50% {
-          color: #4166f5;
+          color: black;
         }
     }
     @-moz-keyframes blink {
@@ -300,7 +301,7 @@ span.cursor {
           color: transparent;
         }
         50% {
-          color: #4166f5;
+          color: black;
         }
     }
     @-webkit-keyframes blink {
@@ -308,7 +309,7 @@ span.cursor {
           color: transparent;
         }
         50% {
-          color: #4166f5;
+          color: black;
         }
     }
     @-ms-keyframes blink {
@@ -316,7 +317,7 @@ span.cursor {
           color: transparent;
         }
         50% {
-          color: #4166f5;
+          color: black;
         }
     }
     @-o-keyframes blink {
@@ -324,7 +325,7 @@ span.cursor {
           color: transparent;
         }
         50% {
-          color: #4166f5;
+          color: black;
         }
     }
 }
