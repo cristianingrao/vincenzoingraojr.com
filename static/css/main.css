@@ -234,30 +234,27 @@ span.cursor {
         z-index: 2;
     }
     .m-menu {
-        visibility: hidden;
-        display: none;
+        visibility: visible;
+        display: block;
         width: 100%;
         top: 0;
         left: 0;
         right: 0;
-        bottom: 52px;
+        bottom: 51px;
         background-color: #4166f5;
         position: fixed;
-        -webkit-transform: translateY(100%);
-        -moz-transform: translateY(100%);
-        -ms-transform: translateY(100%);
-        -o-transform: translateY(100%);
-        transform: translateY(100%);
     }
     .container-fluid {
         width: 100%;
         top: 0;
-        bottom: 52px;
+        bottom: 51px;
     }
-    ul.m-menu-list {
+    ol.m-menu-list {
         margin-left: 40px;
         margin-right: 40px;
+        padding-right: 40px;
         margin-bottom: 60px;
+        padding-bottom: 40px;
         overflow-y: hidden;
         color: white;
         list-style-type: decimal-leading-zero;
@@ -380,4 +377,5 @@ span.cursor {
         margin-top: -7px;
         height: 32px;
     }
+    
 }

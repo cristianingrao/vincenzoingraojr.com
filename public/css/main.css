@@ -187,13 +187,13 @@ span.cursor {
 	  color: black;
 	}
 }
-.menu-button {
-    visibility: hidden;
-    display: block;
-}
 .m-menu {
     visibility: hidden;
     display: none;
+}
+.menu-button {
+    display: none;
+    visibility: hidden;
 }
 @media (max-width: 992px) {
     .sides, .right-side, .left-side {
@@ -231,6 +231,7 @@ span.cursor {
         color: black;
         font-size: 22px;
         float: left;
+        z-index: 2;
     }
     .m-menu {
         visibility: visible;
@@ -239,14 +240,14 @@ span.cursor {
         top: 0;
         left: 0;
         right: 0;
-        bottom: 52px;
+        bottom: 51px;
         background-color: #4166f5;
         position: fixed;
     }
     .container-fluid {
         width: 100%;
         top: 0;
-        bottom: 52px;
+        bottom: 51px;
     }
     ul.m-menu-list {
         margin-left: 40px;
@@ -262,13 +263,14 @@ span.cursor {
     }
     h3.m-menu-title {
         color: black;
-        margin-top: 60px;
-        margin-left: 52px;
+        margin-top: 120px;
+        margin-left: 50px;
         font-weight: 700;
         position: relative;
     }
     li {
         margin-bottom: 6px;
+        margin-right: 90px;
     }
     .m-menu-list a {
         color: white;
@@ -277,4 +279,101 @@ span.cursor {
         color: white;
         text-decoration: underline;
     }
+    span.cursor {
+        -webkit-animation: 1s blink step-end infinite;
+        -moz-animation: 1s blink step-end infinite;
+        -ms-animation: 1s blink step-end infinite;
+        -o-animation: 1s blink step-end infinite;
+        animation: 1s blink step-end infinite;
+    }
+    @keyframes blink {
+        from, to {
+          color: transparent;
+        }
+        50% {
+          color: black;
+        }
+    }
+    @-moz-keyframes blink {
+        from, to {
+          color: transparent;
+        }
+        50% {
+          color: black;
+        }
+    }
+    @-webkit-keyframes blink {
+        from, to {
+          color: transparent;
+        }
+        50% {
+          color: black;
+        }
+    }
+    @-ms-keyframes blink {
+        from, to {
+          color: transparent;
+        }
+        50% {
+          color: black;
+        }
+    }
+    @-o-keyframes blink {
+        from, to {
+          color: transparent;
+        }
+        50% {
+          color: black;
+        }
+    }
+    .menu-button {
+        visibility: visible;
+        display: block;
+        float: right;
+        margin-right: 42px;
+        position: relative;
+        padding-top: 4.5px;
+        cursor: pointer;
+        box-sizing: border-box;
+        background-color: transparent;
+        width: 30px;
+	    height: 25px;
+    }
+    .menu-button span {
+        background-color: black;
+        width: 30px;
+        height: 1px;
+        visibility: visible;
+        display: block;
+        position: relative;
+        -webkit-transition: all 0.3s ease;
+    	transition: all 0.3s ease;
+    }
+    .menu-button span:nth-child(1) {
+        top: 0;
+    }
+    .menu-button span:nth-child(2) {
+        top: 7px;
+    }
+    .menu-button span:nth-child(3) {
+        top: 14px;
+    }
+    .menu-button.clicked span:nth-child(2) {
+        width: 0;
+    }
+    .menu-button.clicked span:nth-child(1) {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        top: 15.809px;
+    }
+    .menu-button.clicked span:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        bottom: 15.899px;
+    }
+    .menu-button.clicked {
+        margin-top: -7px;
+        height: 32px;
+    }
+    
 }
