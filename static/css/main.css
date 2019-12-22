@@ -255,7 +255,7 @@ span.cursor {
         padding-right: 30px;
         margin-right: 60px;
         padding-bottom: 30px;
-        overflow-y: active;
+        overflow-y: scroll;
         list-style-position: outside;
         color: white;
         font-style: bold;
