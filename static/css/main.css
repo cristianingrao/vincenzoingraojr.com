@@ -146,6 +146,22 @@ span.cursor {
     visibility: hidden;
     display: none;
 }
+:-moz-selection {
+    color: black; 
+    background: #4166f5;
+}  
+::selection {
+    color: black; 
+    background: #4166f5;
+}   
+p::-moz-selection {
+    color: black;
+    background: #4166f5;
+}  
+p::selection {
+    color: black;
+    background: #4166f5;
+}
 @keyframes blink {
 	from, to {
 	  color: transparent;
