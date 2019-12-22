@@ -249,19 +249,20 @@ span.cursor {
         top: 0;
         bottom: 51px;
     }
-    ol.m-menu-list {
-        margin-left: 40px;
-        margin-right: 40px;
-        padding-right: 40px;
-        margin-bottom: 60px;
-        padding-bottom: 40px;
-        overflow-y: hidden;
+    ul.m-menu-list {
+        padding-top: 5px;
+        padding-left: 60px;
+        padding-right: 90px;
+        margin-right: 60px;
+        padding-bottom: 30px;
+        overflow-y: active;
+        list-style-position: outside;
         color: white;
-        list-style-type: decimal-leading-zero;
         font-style: bold;
         font-weight: 700;
         font-size: 16px;
         position: relative;
+        z-index: 2;
     }
     h3.m-menu-title {
         color: black;
@@ -269,6 +270,7 @@ span.cursor {
         margin-left: 50px;
         font-weight: 700;
         position: relative;
+        font-size: 18px;
     }
     li {
         margin-bottom: 6px;
@@ -280,53 +282,6 @@ span.cursor {
     .m-menu-list a:hover, .m-menu-list a:active {
         color: white;
         text-decoration: underline;
-    }
-    span.cursor {
-        -webkit-animation: 1s blink step-end infinite;
-        -moz-animation: 1s blink step-end infinite;
-        -ms-animation: 1s blink step-end infinite;
-        -o-animation: 1s blink step-end infinite;
-        animation: 1s blink step-end infinite;
-    }
-    @keyframes blink {
-        from, to {
-          color: transparent;
-        }
-        50% {
-          color: black;
-        }
-    }
-    @-moz-keyframes blink {
-        from, to {
-          color: transparent;
-        }
-        50% {
-          color: black;
-        }
-    }
-    @-webkit-keyframes blink {
-        from, to {
-          color: transparent;
-        }
-        50% {
-          color: black;
-        }
-    }
-    @-ms-keyframes blink {
-        from, to {
-          color: transparent;
-        }
-        50% {
-          color: black;
-        }
-    }
-    @-o-keyframes blink {
-        from, to {
-          color: transparent;
-        }
-        50% {
-          color: black;
-        }
     }
     .menu-button {
         visibility: visible;
@@ -377,5 +332,4 @@ span.cursor {
         margin-top: -7px;
         height: 32px;
     }
-    
 }
