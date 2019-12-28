@@ -336,7 +336,7 @@ label {
         -o-transform: translateY(-17px) rotateZ(-45deg);
         transform: translateY(-17px) rotateZ(-45deg);
     }
-    input[type="checkbox"]:checked ~ .m-menu {
+    input[type="checkbox"]:checked ~ .m-menu::before, .m-menu::after {
         visibility: visible;
         display: block;
         top: 0;
@@ -373,7 +373,7 @@ label {
                 transform-origin: 0% 100%;
         }
     }
-    .m-menu {
+    .m-menu, .m-menu::before, .m-menu::after {
         display: none;
         visibility: hidden;
         top: 0;
@@ -389,6 +389,7 @@ label {
         -o-transform: translateY(0%);
         animation: 0.4s scale-up-ver-bottom;
         -webkit-animation: 0.4s scale-up-ver-bottom;
+        animation-direction: alternate;
     }
     .container-fluid {
         width: 100%;
