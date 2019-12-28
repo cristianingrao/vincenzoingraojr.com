@@ -413,14 +413,15 @@ label {
     .m-menu-list {
         margin-right: 60px;
         margin-left: 10px;
-        list-style-type: "/ ";
-        font-size: 18px;
+        list-style-type: "/";
+        font-size: 20px;
         font-weight: 700;
+        list-style-position: outside;
     }
     .m-menu-list li a {
         color: #fff;
-        font-size: 18px;
-        bottom: 12px;
+        font-size: 20px;
+        margin-bottom: 12px;
     }
     .m-menu-list li a:hover, .m-menu-list li a:active {
         color: #fff;
