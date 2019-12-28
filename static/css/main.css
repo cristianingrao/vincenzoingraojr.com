@@ -316,10 +316,12 @@ label {
     input[type="checkbox"]:checked ~ .m-menu{
         visibility: visible;
         display: block;
+        top: 0;
+        bottom: 51.51px;
         transition: all 0.3 ease;
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
     }
     input[type="checkbox"]:checked ~ span.span-menu {
         background-color: black;
@@ -335,9 +337,9 @@ label {
         background-color: #4166f5;
         position: fixed;
         animation: all 0.3 ease;
-        -webkit-animation: all 0.3s ease-in;
-        -moz-animation: all 0.3s ease-in;
-        -o-animation: all 0.3s ease-in;
+        -webkit-animation: all 0.3s ease-out;
+        -moz-animation: all 0.3s ease-out;
+        -o-animation: all 0.3s ease-out;
     }
     .container-fluid {
         width: 100%;
