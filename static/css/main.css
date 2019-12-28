@@ -282,13 +282,10 @@ label {
         background-color: black;
         width: 30px;
         height: 1px;
-        animation: 0.3s ease infinite;
-        -webkit-animation: 0.3s ease infinite;
-        -moz-animation: 0.3s ease infinite;
+        transition: background-color 0.3s ease-in, transform 0.3s ease-in, width 0.3s ease-in;
     }
-    input[type="checkbox"]:checked {
-        margin-top: -10px;
-        height: 32px;
+    input[type="checkbox"]:checked ~ label  {
+        top: 12px;
     }
     .top {
         top: 0;
@@ -300,28 +297,31 @@ label {
         bottom: 0;
     }
     input[type="checkbox"]:checked ~ label .top {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        top: 0;
+        -webkit-transform: translateY(1px) rotateZ(45deg);
+        -moz-transform: translateY(1px) rotateZ(45deg);
+        -ms-transform: translateY(1px) rotateZ(45deg);
+        -o-transform: translateY(1px) rotateZ(45deg);
+        transform: translateY(1px) rotateZ(45deg);
     }
     input[type="checkbox"]:checked ~ label .middle {
         width: 0;
     }
     input[type="checkbox"]:checked ~ label .bottom {
-        transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
-        -moz-transform: rotate(-45deg);
-        top: 0;
+        -webkit-transform: translateY(-17px) rotateZ(-45deg);
+        -moz-transform: translateY(-17px) rotateZ(-45deg);
+        -ms-transform: translateY(-17px) rotateZ(-45deg);
+        -o-transform: translateY(-17px) rotateZ(-45deg);
+        transform: translateY(-17px) rotateZ(-45deg);
     }
     input[type="checkbox"]:checked ~ .m-menu{
         visibility: visible;
         display: block;
-        animation: all 0.3s ease;
-        -webkit-animation: 0.3s ease infinite;
-        -moz-animation: 0.3s ease infinite;
+        transition: all 0.3 ease;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
     }
-    input[type="checkbox"]:checked ~ .span-menu {
+    input[type="checkbox"]:checked ~ span.span-menu {
         background-color: black;
     }
     .m-menu {
@@ -330,13 +330,14 @@ label {
         top: 0;
         left: 0;
         right: 0;
-        bottom: 51px;
+        bottom: 51.5px;
         width: 100%;
         background-color: #4166f5;
         position: fixed;
-        animation: all 0.3s ease;
-        -webkit-animation: 0.3s ease infinite;
-        -moz-animation: 0.3s ease infinite;
+        transition: all 0.3 ease;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
     }
     .container-fluid {
         width: 100%;
@@ -345,6 +346,6 @@ label {
         top: 0;
         left: 0;
         right: 0;
-        bottom: 51px;
+        bottom: 51.5px;
     }
 }
