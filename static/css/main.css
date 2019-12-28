@@ -413,6 +413,7 @@ label {
     .m-menu-list {
         margin-right: 60px;
         margin-left: 10px;
+        list-style-type: "/";
     }
     .m-menu-list li a {
         color: #fff;
