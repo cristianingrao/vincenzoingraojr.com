@@ -292,15 +292,18 @@ p::selection {
     .menu-button.clicked span:nth-child(1) {
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
         top: 15.809px;
     }
     .menu-button.clicked span:nth-child(3) {
         -webkit-transform: rotate(-45deg);
         transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
         bottom: 15.899px;
     }
     .menu-button.clicked {
         margin-top: -7px;
         height: 32px;
     }
+    
 }
