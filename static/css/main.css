@@ -420,7 +420,7 @@ label {
     .m-menu-list li a {
         color: #fff;
         font-size: 18px;
-        padding-bottom: 20px;
+        bottom: 12px;
     }
     .m-menu-list li a:hover, .m-menu-list li a:active {
         color: #fff;
