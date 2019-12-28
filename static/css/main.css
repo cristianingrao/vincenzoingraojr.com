@@ -425,10 +425,7 @@ label {
     .m-menu-list li a:hover, .m-menu-list li a:active {
         color: #fff;
         text-decoration: underline;
-        animation: all 0.6s ease;
-        -webkit-animation: all 0.6s ease-in;
-        -moz-animation: all 0.6s ease-in;
-        -o-animation: all 0.6s ease-in;
+        text-decoration-color: black;
     }
     .row {
         width: 100%;
