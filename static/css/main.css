@@ -204,7 +204,30 @@ p::selection {
 }
 .row {
     width: 100%;
-    display: table;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    align-items: stretch;
+    -webkit-align-items: stretch;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.col-max {
+    width: 66.666%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding-right: 7px;
+}
+.col-min {
+    width: 32.999%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding-left: 7px;
 }
 .m-menu {
     display: none;
@@ -402,5 +425,21 @@ label {
         -webkit-animation: all 0.6s ease-in;
         -moz-animation: all 0.6s ease-in;
         -o-animation: all 0.6s ease-in;
+    }
+    .row {
+        width: 100%;
+        display: block;
+    }
+    .col-max {
+        width: 100%;
+        display: block;
+        margin-bottom: 12px;
+        padding: none;
+    }
+    .col-min {
+        width: 100%;
+        display: block;
+        margin-bottom: 12px;
+        padding: 0;
     }
 }
