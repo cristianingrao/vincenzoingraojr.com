@@ -202,10 +202,6 @@ p::selection {
 	  color: black;
 	}
 }
-.menu-button {
-    display: none;
-    visibility: hidden;
-}
 .row {
     width: 100%;
     display: table;
@@ -216,9 +212,9 @@ p::selection {
 }
 input[type="checkbox"] {
     display: none;
-    visibility: visible;
+    visibility: hidden;
 }
-.menu-span {
+label {
     display: none;
     visibility: hidden;
 }
@@ -266,67 +262,59 @@ input[type="checkbox"] {
         float: left;
         z-index: 2;
     }
-    .label {
+    label {
         visibility: visible;
         display: block;
-        float: right;
-        margin-right: 42px;
         position: relative;
-        padding-top: 4.5px;
-        cursor: pointer;
-        box-sizing: border-box;
+        float: right;
+        top: 0;
+        margin-right: 82px;
         background-color: transparent;
-        width: 30px;
-	    height: 25px;
+        cursor: pointer;
     }
     input[type="checkbox"] {
-        display: none;
-        visibility: hidden;
+        display: block;
+        visibility: visible;
     }
-    .menu-span {
+    span.menu-span {
         background-color: black;
         width: 30px;
         height: 1px;
-        visibility: visible;
-        display: block;
-        position: relative;
-        -webkit-transition: all 0.3s ease;
-    	transition: all 0.3s ease;
-    }
-    .label input[type="checkbox"] span:nth-child(1) {
-        top: 0;
-    }
-    .label input[type="checkbox"] span:nth-child(2) {
-        top: 7px;
-    }
-    .label input[type="checkbox"] span:nth-child(3) {
-        top: 14px;
-    }
-    .label input[type="checkbox"]:checked span:nth-child(2) {
-        width: 0;
-    }
-    .label input[type="checkbox"]:checked span:nth-child(1) {
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        top: 15.809px;
-    }
-    .label input[type="checkbox"]:checked span:nth-child(3) {
-        -webkit-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        -moz-transform: rotate(-45deg);
-        bottom: 15.899px;
-    }
-    .label input[type="checkbox"]:checked {
-        margin-top: -7px;
-        height: 32px;
-    }
-    .label input[type="checkbox"]:checked ~ .m-menu{
-        visibility: visible;
-        display: block;
         animation: 0.3s ease infinite;
         -webkit-animation: 0.3s ease infinite;
         -moz-animation: 0.3s ease infinite;
+    }
+    input[type="checkbox"]:checked {
+        margin-top: -10px;
+        height: 32px;
+    }
+    .top {
+        top: 0;
+    }
+    .middle {
+        top: 25px;
+    }
+    .bottom {
+        bottom: 0;
+    }
+    input[type="checkbox"]:checked ~ label .top {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        top: 0;
+    }
+    input[type="checkbox"]:checked ~ label .middle {
+        width: 0;
+    }
+    input[type="checkbox"]:checked ~ label .bottom {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        top: 0;
+    }
+    input[type="checkbox"]:checked ~ .m-menu{
+        visibility: visible;
+        display: block;
     }
     .m-menu {
         display: none;
@@ -338,7 +326,9 @@ input[type="checkbox"] {
         width: 100%;
         background-color: #4166f5;
         position: fixed;
-        animation: 0.3s ease infinite;
+        animation: all 0.3s ease;
+        -webkit-animation: 0.3s ease infinite;
+        -moz-animation: 0.3s ease infinite;
     }
     .container-fluid {
         width: 100%;
