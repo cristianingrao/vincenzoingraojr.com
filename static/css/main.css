@@ -267,16 +267,18 @@ label {
         display: block;
         position: relative;
         float: right;
-        top: 0;
-        margin-right: 82px;
+        margin-right: 42px;
         background-color: transparent;
         cursor: pointer;
+        top: 4px;
     }
     input[type="checkbox"] {
-        display: block;
-        visibility: visible;
+        display: none;
+        visibility: hidden;
     }
     span.menu-span {
+        visibility: visible;
+        display: block;
         background-color: black;
         width: 30px;
         height: 1px;
@@ -292,7 +294,7 @@ label {
         top: 0;
     }
     .middle {
-        top: 25px;
+        margin: 8px auto;
     }
     .bottom {
         bottom: 0;
@@ -315,6 +317,12 @@ label {
     input[type="checkbox"]:checked ~ .m-menu{
         visibility: visible;
         display: block;
+        animation: all 0.3s ease;
+        -webkit-animation: 0.3s ease infinite;
+        -moz-animation: 0.3s ease infinite;
+    }
+    input[type="checkbox"]:checked ~ .span-menu {
+        background-color: black;
     }
     .m-menu {
         display: none;
@@ -337,5 +345,6 @@ label {
         top: 0;
         left: 0;
         right: 0;
+        bottom: 51px;
     }
 }
