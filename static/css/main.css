@@ -284,7 +284,7 @@ label {
         height: 1px;
         transition: background-color 0.3s ease-in, transform 0.3s ease-in, width 0.3s ease-in;
     }
-    input[type="checkbox"]:checked ~ label  {
+    input[type="checkbox"]:checked ~ label {
         top: 12px;
     }
     .top {
@@ -313,7 +313,7 @@ label {
         -o-transform: translateY(-17px) rotateZ(-45deg);
         transform: translateY(-17px) rotateZ(-45deg);
     }
-    input[type="checkbox"]:checked ~ .m-menu{
+    input[type="checkbox"]:checked ~ .m-menu {
         visibility: visible;
         display: block;
         top: 0;
@@ -364,9 +364,9 @@ label {
         -moz-transform: translateY(0%);
         -webkit-transform: translateY(0%);
         -o-transform: translateY(0%);
-        -webkit-animation: 0.4s scale-up-ver-bottom;
         animation: 0.4s scale-up-ver-bottom;
-        }
+        -webkit-animation: 0.4s scale-up-ver-bottom;
+    }
     .container-fluid {
         width: 100%;
         height: 100%;
