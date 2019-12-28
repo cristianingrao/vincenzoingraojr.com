@@ -336,7 +336,7 @@ label {
         -o-transform: translateY(-17px) rotateZ(-45deg);
         transform: translateY(-17px) rotateZ(-45deg);
     }
-    input[type="checkbox"]:checked ~ .m-menu::before, .m-menu::after {
+    input[type="checkbox"]:checked ~ .m-menu {
         visibility: visible;
         display: block;
         top: 0;
@@ -373,7 +373,7 @@ label {
                 transform-origin: 0% 100%;
         }
     }
-    .m-menu, .m-menu::before, .m-menu::after {
+    .m-menu {
         display: none;
         visibility: hidden;
         top: 0;
@@ -444,8 +444,5 @@ label {
         display: block;
         margin-bottom: 12px;
         padding: 0;
-    }
-    ::after {
-        animation-direction: backwards;
     }
 }
