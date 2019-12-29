@@ -446,11 +446,30 @@ label {
         background-color: transparent;
     }
     .side-m-menu {
-        bottom: 40px;
+        right: 0;
+        float: right;
+        height: 100%;
+        width: 70px;
+        top: 0; 
+        bottom: 0;
+        overflow: hidden;
+        position: fixed;
+        background-color: transparent;
+        z-index: 2;
+    }
+    .side-content {
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        transform-origin: left top bottom;
+        box-sizing: border-box;
+        width: 70px;
+        bottom: 71px;
+        position: fixed;
+        line-height: 70px;
     }
     .m-side-link {
         color: #fff;
-        padding-right: 7px;
+        padding-right: 8px;
     }
     .m-side-link:hover, .m-side-link:active {
         color: #fff;
