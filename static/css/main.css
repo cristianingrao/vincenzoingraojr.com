@@ -472,6 +472,7 @@ label {
         font-size: 18px;
         margin-bottom: 3px;
         margin-left: 0px;
+        padding-left: 0px;
         right: unset;
     }
     div.form-div {
