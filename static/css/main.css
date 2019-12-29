@@ -298,7 +298,7 @@ label {
         display: block;
         position: relative;
         float: right;
-        padding-right: 42px;
+        margin-right: 42px;
         background-color: transparent;
         cursor: pointer;
         top: 4px;
