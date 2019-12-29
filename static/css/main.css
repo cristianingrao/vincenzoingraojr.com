@@ -467,6 +467,7 @@ label {
     label.form-label {
         visibility: visible;
         display: block;
+        position: relative;
         font-family: Inter;
         font-weight: 700;
         font-size: 18px;
@@ -474,6 +475,7 @@ label {
         margin-left: 0px;
         padding-left: 0px;
         right: unset;
+        float: left;
     }
     div.form-div {
         background-color: transparent;
