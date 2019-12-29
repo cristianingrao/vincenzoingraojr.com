@@ -369,6 +369,7 @@ label {
         width: 100%;
         background-color: #4166f5;
         position: fixed;
+        transition: width 2s;
     }
     .container-fluid {
         width: 100%;
