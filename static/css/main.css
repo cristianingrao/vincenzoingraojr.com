@@ -446,21 +446,7 @@ label {
         background-color: transparent;
     }
     .side-m-menu {
-<<<<<<< Updated upstream
-        width: 70px;
-        top: 0; 
         bottom: 40px;
-        overflow: hidden;
-        position: fixed;
-        background-color: transparent;
-        z-index: 2;
-        float: right;
-        right: 0;
-        padding-bottom: 20px;
-=======
-        bottom: 40px;
-        
->>>>>>> Stashed changes
     }
     .m-side-link {
         color: #fff;
