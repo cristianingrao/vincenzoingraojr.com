@@ -520,6 +520,7 @@ label.form-label:hover, label.form-label:active {
 }
 .form-text:focus, .form-text:active, .form-text-message:focus, .form-text-message:active {
     border: 1px solid #4166f5;
+    -webkit-user-select: none;
 }
 div.form-div {
     margin-bottom: 4px;
