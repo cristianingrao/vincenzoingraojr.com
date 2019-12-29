@@ -42,7 +42,7 @@ p, div {
     color: black;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
 }
 .sides {
     font-family: Inter;
@@ -257,6 +257,20 @@ label {
         margin-left: 20px;
         margin-bottom: 75px;
     }
+    .form-div {
+        border-top: #cccccc solid 1px;
+        background-color: #e6e6e6;
+        margin-left: -20px;
+        margin-right: -20px;
+        bottom: 0;
+        top: unset;
+    }
+    h3.form-subtitle {
+        color: black;
+        margin-top: 10px;
+        text-decoration: underline;
+        text-decoration-color: #4166f5;
+    }
     .sides, .right-side, .left-side {
         display: none;
         visibility: hidden;
@@ -464,9 +478,8 @@ label {
     font-family: Inter;
     font-weight: 700;
 }
-h3.subtitle {
+h3.form-subtitle {
     color: black;
-    margin-top: 4px;
     text-decoration: underline;
     text-decoration-color: #4166f5;
 }
