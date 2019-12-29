@@ -23,3 +23,8 @@ Di seguito trovi un modulo per contattarmi, ma puoi farlo anche tramite WhatsApp
 <input class="form-button" type="submit" value="Invia">
 </div>
 </form>
+<script>
+    $("input").on('click', function() {
+        $(this).css('border', '1px solid #4166f5');
+    });
+</script>
