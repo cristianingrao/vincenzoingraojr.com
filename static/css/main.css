@@ -445,6 +445,26 @@ label {
     div.form-div {
         background-color: transparent;
     }
+    .side-m-menu {
+        width: 70px;
+        top: unset; 
+        bottom: 0px;
+        overflow: hidden;
+        position: fixed;
+        background-color: transparent;
+        z-index: 2;
+        float: right;
+        right: 0;
+    }
+    .m-side-link {
+        color: #fff;
+        padding-right: 7px;
+    }
+    .m-side-link:hover, .m-side-link:active {
+        color: #fff;
+        text-decoration: underline;
+        text-decoration-color: black;
+    }
 }
 .additional {
     color: #4166f5;
