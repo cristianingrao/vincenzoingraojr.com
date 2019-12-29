@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="it-IT">
 <head>
-    <title>{{ if .IsHome}}{{.Site.Title}}{{end}}</title>
+    <title>{{if .IsHome}}{{.Site.Title}}{{end}}{{if not .IsHome}}{{.Title}}{{end}}</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
@@ -23,9 +23,9 @@
         <span class="menu-span bottom"></span>
     </label>
     <nav class="header-items">
-        <a href="/articoli/" class="header-link" title="Qui trovi tutti gli articoli che ho scritto">Articoli</a>
-        <a href="/newsletter" class="header-link" title="Iscriviti alla mia newsletter">Newsletter</a>
-        <a href="/info-e-contatti" class="header-link" title="Info e contatti di Vincenzo Ingrao Jr.">Info e contatti</a>
+        <span class="additional">/</span><a href="/articoli/" class="header-link" title="Qui trovi tutti gli articoli che ho scritto">Articoli</a>
+        <span class="additional">/</span><a href="/newsletter" class="header-link" title="Iscriviti alla mia newsletter">Newsletter</a>
+        <span class="additional">/</span><a href="/info-e-contatti" class="header-link" title="Info e contatti di Vincenzo Ingrao Jr.">Info e contatti</a>
     </nav>
     <div class="m-menu">
         <div class="m-menu-title">MENU</div>

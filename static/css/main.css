@@ -21,6 +21,10 @@ html {
          url("/fonts/Inter-Bold.woff2") format("woff2"),
          url("/fonts/Inter-Bold.woff") format("woff");
 }
+mark {
+    background-color: #4166f5;
+    color: white;
+}
 .container {
     margin-top: 135px;
     margin-right: 90px;
@@ -133,7 +137,7 @@ header {
 }
 a.header-link {
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 20px;
 }
 span.cursor {
     -webkit-animation: 1s blink step-end infinite;
@@ -240,6 +244,10 @@ input[type="checkbox"] {
 label {
     display: none;
     visibility: hidden;
+}
+.paragraph {
+    width: 100%;
+    display: block;
 }
 @media (max-width: 992px) {
     .container {
@@ -445,4 +453,17 @@ label {
         margin-bottom: 12px;
         padding: 0;
     }
+    .paragraph {
+        width: 100%;
+        display: block;
+    }
+}
+.additional {
+    color: #4166f5;
+    font-family: Inter;
+    font-weight: 700;
+}
+h3.subtitle {
+    color: gray;
+    margin-top: 4px;
 }

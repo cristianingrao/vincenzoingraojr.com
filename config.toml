@@ -1,3 +1,5 @@
 baseURL = "https://vincenzoingrao.com/"
-languageCode = "en-us"
+languageCode = "it-it"
 title = "Vincenzo Ingrao"
+[markup.goldmark.renderer]
+    unsafe= true
