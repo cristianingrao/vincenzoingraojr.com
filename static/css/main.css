@@ -448,10 +448,9 @@ label {
     .side-m-menu {
         right: 0;
         float: right;
-        height: 100%;
         width: 70px;
         top: 0; 
-        bottom: 0;
+        bottom: 71px;
         overflow: hidden;
         position: fixed;
         background-color: transparent;
@@ -520,7 +519,6 @@ label.form-label:hover, label.form-label:active {
 }
 .form-text:focus, .form-text:active, .form-text-message:focus, .form-text-message:active {
     border: 1px solid #4166f5;
-    -webkit-user-select: none;
 }
 div.form-div {
     margin-bottom: 4px;
