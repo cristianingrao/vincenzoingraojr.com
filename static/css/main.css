@@ -518,8 +518,9 @@ label.form-label:hover, label.form-label:active {
     font-size: 16px;
     box-sizing: border-box;
 }
-.form-text:hover, .form-text:active, .form-text-message:hover, .form-text-message:active {
+.form-text:focus, .form-text:active, .form-text-message:focus, .form-text-message:active {
     border: 1px solid #4166f5;
+    padding: 2px solid #4166f5;
 }
 div.form-div {
     margin-bottom: 4px;
