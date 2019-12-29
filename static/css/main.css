@@ -320,7 +320,6 @@ label {
         background-color: black;
         width: 30px;
         height: 1px;
-        transition: background-color 0.3s ease-in, transform 0.3s ease-in, width 0.3s ease-in;
     }
     input[type="checkbox"]:checked ~ label {
         top: 12px;
@@ -360,34 +359,6 @@ label {
     input[type="checkbox"]:checked ~ span.span-menu {
         background-color: black;
     }
-    @-webkit-keyframes scale-up-ver-bottom {
-        0% {
-        -webkit-transform: scaleY(0.4);
-                transform: scaleY(0.4);
-        -webkit-transform-origin: 0% 100%;
-                transform-origin: 0% 100%;
-        }
-        100% {
-        -webkit-transform: scaleY(1);
-                transform: scaleY(1);
-        -webkit-transform-origin: 0% 100%;
-                transform-origin: 0% 100%;
-        }
-    }
-    @keyframes scale-up-ver-bottom {
-        0% {
-        -webkit-transform: scaleY(0.4);
-                transform: scaleY(0.4);
-        -webkit-transform-origin: 0% 100%;
-                transform-origin: 0% 100%;
-        }
-        100% {
-        -webkit-transform: scaleY(1);
-                transform: scaleY(1);
-        -webkit-transform-origin: 0% 100%;
-                transform-origin: 0% 100%;
-        }
-    }
     .m-menu {
         display: none;
         visibility: hidden;
@@ -398,13 +369,6 @@ label {
         width: 100%;
         background-color: #4166f5;
         position: fixed;
-        transform: translateY(0%);
-        -moz-transform: translateY(0%);
-        -webkit-transform: translateY(0%);
-        -o-transform: translateY(0%);
-        animation: 0.4s scale-up-ver-bottom;
-        -webkit-animation: 0.4s scale-up-ver-bottom;
-        animation-direction: alternate;
     }
     .container-fluid {
         width: 100%;
@@ -550,4 +514,22 @@ div.form-div {
 .information {
     padding-top: 3px;
     padding-bottom: 3px;
+}
+.comments-button {
+    border-radius: 1px;
+    background-color: #4166f5;
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    transition: ease .4s; 
+}
+.comments-button:hover, .comments-button:active {
+    background-color: black;
+    color: #fff;
 }
