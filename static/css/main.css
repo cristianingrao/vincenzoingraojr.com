@@ -447,14 +447,15 @@ label {
     }
     .side-m-menu {
         width: 70px;
-        top: unset; 
+        top: 0; 
         bottom: 40px;
         overflow: hidden;
-        position: absolute;
+        position: fixed;
         background-color: transparent;
         z-index: 2;
         float: right;
         right: 0;
+        padding-bottom: 20px;
     }
     .m-side-link {
         color: #fff;
