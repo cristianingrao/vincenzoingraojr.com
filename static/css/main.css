@@ -22,7 +22,8 @@ html {
          url("/fonts/Inter-Bold.woff") format("woff");
 }
 mark {
-    background-color: #4166f5;
+    background: -webkit-gradient(linear, left top, right top, from(#4166f5), to(gray));
+    background: linear-gradient(90deg, #4166f5, gray);
     color: white;
 }
 .container {
