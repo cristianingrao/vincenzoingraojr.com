@@ -483,8 +483,8 @@ label {
         background-color: black;
         color: #fff;
         font-family: Inter;
-        margin-left: -20px;
-        margin-right: -20px;
+        margin-left: none;
+        margin-right: none;
         padding: 20px 40px;
     }
 }
