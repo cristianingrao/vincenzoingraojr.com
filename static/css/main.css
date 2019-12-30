@@ -391,6 +391,7 @@ label {
         margin-bottom: 10px;
     }
     .m-menu-list {
+        overflow: auto;
         margin-right: 60px;
         margin-left: 10px;
         list-style-type: "/ ";
@@ -452,7 +453,7 @@ label {
         width: 70px;
         top: 0; 
         bottom: 71px;
-        overflow: hidden;
+        overflow: auto;
         position: fixed;
         background-color: transparent;
         z-index: 2;
