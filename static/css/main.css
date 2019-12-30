@@ -486,10 +486,10 @@ label {
         width: 100%;
         box-sizing: border-box;
         position: fixed;
+    }
+    .black-side p {
         padding-left: 20px;
         padding-right: 20px;
-        margin-left: -20px;
-        margin-right: -20px;
     }
 }
 .additional {
@@ -599,4 +599,7 @@ div.form-div {
 }
 .black-side a {
     color: #fff;
+}
+.black-side a:hover, .black-side a: active {
+    color: #4166f5;
 }
