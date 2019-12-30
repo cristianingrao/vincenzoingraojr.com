@@ -398,10 +398,12 @@ label {
         font-weight: 700;
         list-style-position: outside;
     }
+    .m-menu-list li {
+        margin-bottom: 20px;
+    }
     .m-menu-list li a {
         color: #fff;
         font-size: 20px;
-        margin-bottom: 20px;
     }
     .m-menu-list li a:hover, .m-menu-list li a:active {
         color: #fff;
