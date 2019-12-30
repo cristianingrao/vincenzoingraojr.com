@@ -369,7 +369,6 @@ label {
         width: 100%;
         background-color: #4166f5;
         position: fixed;
-        transition: width 2s;
     }
     .container-fluid {
         width: 100%;
@@ -398,7 +397,6 @@ label {
         font-size: 20px;
         font-weight: 700;
         list-style-position: outside;
-        transition: ease .4s;
     }
     .m-menu-list li a {
         color: #fff;
