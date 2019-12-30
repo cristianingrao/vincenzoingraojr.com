@@ -480,6 +480,13 @@ label {
         text-decoration-color: black;
         font-weight: 700;
     }
+    .black-side {
+        box-sizing: border-box;
+        margin-right: -20px;
+        margin-left: -20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 }
 .additional {
     color: #4166f5;
@@ -566,5 +573,20 @@ div.form-div {
 }
 .comments-button:hover, .comments-button:active {
     background-color: black;
+    color: #fff;
+}
+.black-side {
+    background-color: black;
+    color: #fff;
+    font-family: Inter;
+    margin-left: -90px;
+    margin-right: -90px;
+    margin-top: 17.5px;
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-bottom: 20px;
+    padding-right: 90px;
+}
+.black-side h1 {
     color: #fff;
 }
