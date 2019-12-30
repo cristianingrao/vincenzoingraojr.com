@@ -538,8 +538,8 @@ div.form-div {
     width: 100%;
     box-sizing: border-box;
     border: none;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     transition: ease .4s;
 }
 .form-button:hover, .form-button:active {
@@ -560,8 +560,8 @@ div.form-div {
     width: 100%;
     box-sizing: border-box;
     border: none;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     transition: ease .4s; 
 }
 .comments-button:hover, .comments-button:active {

@@ -5,8 +5,18 @@
         <div class="information">
             <b>Online dal</b> {{ .Date.Day }} {{ index $.Site.Data.mesi (printf "%d" .Date.Month) }} {{ .Date.Year }}
         </div>
-        <div class="paragraph">
-            {{.Content}}
+        <div class="row">
+            <div class="col-max">
+                <div class="paragraph">
+                    {{.Content}}
+                </div>
+            </div>
+            <div class="col-min">
+                {{ partial "libri.html" . }}
+            </div>
+        </div>
+        <div class="col-max">
+            {{ partial "comments.html" . }}
         </div>
     </div>
 </main>
