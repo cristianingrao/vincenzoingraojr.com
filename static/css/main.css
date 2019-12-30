@@ -484,8 +484,9 @@ label {
         color: #fff;
         font-family: Inter;
         width: 100%;
-        margin: none;
         position: fixed;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 .additional {
