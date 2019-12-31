@@ -487,7 +487,7 @@ label {
         margin-right: -20px;
         padding-right: 40px;
         padding-left: 20px;
-        position: absolute;
+        position: fixed;
         padding-top: 20px;
         padding-bottom: 20px;
     }
