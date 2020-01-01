@@ -605,27 +605,58 @@ img {
     color: black;
 }
 a.link-article {
+    font-size: 20px;
+    font-weight: 700;
     color: black;
     transition: ease .4s;
+    
 }
 a.link-article:hover, a.link-article:active {
-    color: #4166f5;
-    text-decoration: underline;
-    font-weight: 700;
-    text-decoration-color: black;
+    color: #fff;
+    background-color: black;
+    background-size: auto;
 }
 a.redirect-to-article {
     color: black;
     font-weight: 400;
 }
 a.redirect-to-article:hover, a.redirect-to-article:active {
+    color: #4166f5;
     text-decoration: underline;
     text-decoration-color: #4166f5;
     font-weight: 400;
 }
 span.arrow {
-    transition: ease-in .4s;
-}
-span.arrow:hover, span.arrow:active {
     color: #4166f5;
+}
+.article-text-summary {
+    margin-top: 10px;
+}
+.books-sidebar {
+    color: black;
+    border-bottom: 1px solid black;
+}
+h4.sidebar-title {
+    color: #fff;
+    background: -webkit-gradient(linear, left top, right top, from(#4166f5), to(gray));
+    background: linear-gradient(90deg, #4166f5, gray);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+.books-list {
+    list-style-type: "| ";
+    font-weight: 700;
+    color: #4166f5;
+}
+.books-list li {
+    margin-bottom: 10px;
+}
+.sidebar-text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.author {
+    font-size: 14px;
+    margin-left: 5px;
 }

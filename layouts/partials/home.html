@@ -15,7 +15,7 @@
         <div class="col-max">
             <h2 class="subtitle">Articoli che vale la pena leggere.</h2>
             <div class="article">
-                <h3><a href="/articoli/presentazioni/" class="link-article" title="Leggi l'articolo dove mi presento">Presentazioni</a></h3>
+                <a href="/articoli/presentazioni/" class="link-article" title="Leggi l'articolo dove mi presento">Presentazioni</a>
                 <div class="article-text-summary">
                     Questo è il mio sito web, statico e funzionale. Quest'ultimo è il frutto del tempo libero che intercorreva tra un pranzo e un cenone nei giorni delle festività natalizie. Mi sono ispirato alle riviste digitali.
                     <a class="redirect-to-article" href="/articoli/presentazioni/" title="Leggi l'articolo dove mi presento">Continua a leggere <span class="arrow">→</span></a>
@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="col-min">
-
+            {{ partial "libri.html" . }}
         </div>
     </div>
 </div>
