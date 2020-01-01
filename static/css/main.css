@@ -453,7 +453,7 @@ label {
         float: right;
         width: 70px;
         top: 0; 
-        bottom: 71px;
+        bottom: 81px;
         overflow: auto;
         position: fixed;
         background-color: transparent;
@@ -465,7 +465,7 @@ label {
         transform-origin: left top bottom;
         box-sizing: border-box;
         width: 70px;
-        bottom: 71px;
+        bottom: 81px;
         position: fixed;
         line-height: 70px;
     }
@@ -590,5 +590,42 @@ div.form-div {
     color: #fff;
 }
 .black-side a:hover, .black-side a:active {
+    color: #4166f5;
+}
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 4px;
+}
+.subtitle {
+    text-decoration: underline;
+    text-decoration-color: #4166f5;
+}
+.article {
+    color: black;
+}
+a.link-article {
+    color: black;
+    transition: ease .4s;
+}
+a.link-article:hover, a.link-article:active {
+    color: #4166f5;
+    text-decoration: underline;
+    font-weight: 700;
+    text-decoration-color: black;
+}
+a.redirect-to-article {
+    color: black;
+    font-weight: 400;
+}
+a.redirect-to-article:hover, a.redirect-to-article:active {
+    text-decoration: underline;
+    text-decoration-color: #4166f5;
+    font-weight: 400;
+}
+span.arrow {
+    transition: ease-in .4s;
+}
+span.arrow:hover, span.arrow:active {
     color: #4166f5;
 }
