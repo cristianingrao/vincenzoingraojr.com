@@ -727,3 +727,15 @@ h4.sidebar-title {
     justify-content: space-between;
     -webkit-justify-content: space-between;
 }
+::-webkit-scrollbar {
+    width: 7.5px;
+}
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
+    background: #4166f5;
+}
+::-webkit-scrollbar-track {
+    background: #fff;
+}
