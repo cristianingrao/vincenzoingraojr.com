@@ -603,6 +603,8 @@ img {
 }
 .article {
     color: black;
+    border-bottom: 1px solid black;
+    margin-bottom: 3px;
 }
 a.link-article {
     font-size: 20px;
@@ -631,6 +633,7 @@ span.arrow {
 }
 .article-text-summary {
     margin-top: 10px;
+    margin-bottom: 4px;
 }
 .books-sidebar {
     color: black;
