@@ -479,17 +479,6 @@ label {
         text-decoration-color: black;
         font-weight: 700;
     }
-    .flex-row {
-        width: 100%;
-        display: flex;
-        display: -webkit-flex;
-        flex-flow: row nowrap;
-        -webkit-flex-flow: row nowrap;
-        align-items: stretch;
-        -webkit-align-items: stretch;
-        justify-content: space-between;
-        -webkit-justify-content: space-between;
-    }
     .side-l {
         width: 66.666%;
         display: flex;
@@ -505,15 +494,22 @@ label {
         flex-direction: column;
         -webkit-flex-direction: column;
         padding-left: 4px;
-        box-sizing: border-box;
+        overflow: hidden;
     }
     .fixed-text {
-        margin-top: 100%;
-        text-align: center;
-        vertical-align: middle;
-        font-family: Inter;
-        font-weight: 700;
         color: #4166f5;
+        font-weight: 700;
+    }
+    .flex-row {
+        width: 100%;
+        display: flex;
+        display: -webkit-flex;
+        flex-flow: row nowrap;
+        -webkit-flex-flow: row nowrap;
+        align-items: stretch;
+        -webkit-align-items: stretch;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
     }
 }
 .additional {
@@ -701,31 +697,33 @@ h4.sidebar-title {
 }
 .side-l {
     width: 66.666%;
-    display: table-cell;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
     padding-right: 7px;
 }
 .fixed-side-r {
     width: 32.999%;
-    display: table-cell;
-    position: fixed;
-    font-family: Inter;
-    font-weight: 700;
-    color: #4166f5;
-    float: right;
-    padding-right: 7px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding-left: 7px;
     overflow: hidden;
-    height: 100%;
-    box-sizing: border-box;
+}
+.fixed-text {
+    color: #4166f5;
+    font-weight: 700;
 }
 .flex-row {
     width: 100%;
-    display: table;
-}
-.fixed-text {
-    text-align: center;
-    vertical-align: middle;
-    font-family: Inter;
-    font-weight: 700;
-    color: #4166f5;
-    margin-top: 33.333%;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    align-items: stretch;
+    -webkit-align-items: stretch;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
 }
