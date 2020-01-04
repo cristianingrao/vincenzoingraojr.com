@@ -739,3 +739,6 @@ h4.sidebar-title {
 ::-webkit-scrollbar-track {
     background: #fff;
 }
+.image-container {
+    display: block;
+}
