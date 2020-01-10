@@ -3,7 +3,8 @@
     <div class="container">
         <h1>{{.Title}}</h1>
         <div class="information">
-            <b>Online dal</b> {{ .Date.Day }} {{ index $.Site.Data.mesi (printf "%d" .Date.Month) }} {{ .Date.Year }}
+            <b>Online dal:</b> {{ .Date.Day }} {{ index $.Site.Data.mesi (printf "%d" .Date.Month) }} {{ .Date.Year }} </br>
+            <b>Tempo di lettura:</b> {{ .Params.tempo_lettura }}
         </div>
         <div class="row">
             <div class="col-max">
