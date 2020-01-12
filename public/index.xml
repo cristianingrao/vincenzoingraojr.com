@@ -6,9 +6,28 @@
     <description>Recent content on Vincenzo Ingrao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
+    <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vincenzoingrao.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>La termodinamica</title>
+      <link>https://vincenzoingrao.com/articoli/termodinamica/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincenzoingrao.com/articoli/termodinamica/</guid>
+      <description>La spiegazione della termodinamica.</description>
+    </item>
+    
+    <item>
+      <title>Presentazioni</title>
+      <link>https://vincenzoingrao.com/articoli/presentazioni/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincenzoingrao.com/articoli/presentazioni/</guid>
+      <description>Internet è uno strumento dalle mille potenzialità, ma allo stesso tempo è un luogo sia meraviglioso, sia macabro. Tutto sta nel come lo si usa e in quali luoghi &amp;ldquo;virtuali&amp;rdquo; si va. È ovviamente una cosa che si suole dire e anche banale, ma trovo che sia una buona premessa per iniziare questo articolo. Internet consente la trasmissione di informazioni di vario tipo, che viaggiano nelle sue reti intrecciate sotto le sembianze di pacchetti numerati, e questo vi permette di leggere le parole che sto scrivendo e a me di scriverle.</description>
+    </item>
     
     <item>
       <title>Info e contatti</title>
@@ -31,6 +50,24 @@ Compila il seguente modulo se vuoi contattarmi.</description>
       <description>Nel mio sito parlo di tecnologia, precisamente tento di trasmettere ciò che sento durante la spiegazione di un apparato tecnologico, e tento anche di spiegare come dovrebbe essere utilizzata la tecnologia per trarne benefici.
 Inoltre, spiego semplicemente i vari concetti della fisica e della chimica (e delle scienze generalmente). Quindi, iscriviti alla mia newsletter per restare sempre aggiornato sulla pubblicazione dei contenuti. Puoi iscriverti anche da qui.
 Compila il seguente modulo per iscriverti alla newsletter.</description>
+    </item>
+    
+    <item>
+      <title>Messaggio inviato correttamente!</title>
+      <link>https://vincenzoingrao.com/conferma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincenzoingrao.com/conferma/</guid>
+      <description>Ora puoi tornare alla Homepage, oppure alla sezione Articoli.</description>
+    </item>
+    
+    <item>
+      <title>Privacy e Cookie policy di vincenzoingrao.com</title>
+      <link>https://vincenzoingrao.com/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincenzoingrao.com/privacy/</guid>
+      <description></description>
     </item>
     
   </channel>

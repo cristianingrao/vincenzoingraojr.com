@@ -495,7 +495,6 @@ label {
         flex-direction: column;
         -webkit-flex-direction: column;
         padding-left: 4px;
-        overflow: hidden;
     }
     .fixed-text {
         color: #4166f5;
@@ -711,7 +710,6 @@ h4.sidebar-title {
     flex-direction: column;
     -webkit-flex-direction: column;
     padding-left: 7px;
-    overflow: hidden;
 }
 .fixed-text {
     color: #4166f5;
@@ -742,4 +740,31 @@ h4.sidebar-title {
 }
 .image-container {
     display: block;
+}
+.articles-row {
+    visibility: visible;
+    width: 100%;
+    display: row;
+    margin-bottom: 10px;
+}
+.mid-col-dx {
+    width: 49.666%;
+    display: table-cell;
+    float: right;
+}
+.mid-col-sx {
+    width: 49.666%;
+    display: table-cell;
+    float: left;
+}
+a.article-link {
+    font-family: Inter;
+    font-weight: 700;
+}
+a.article-link:hover, a.article-link:active {
+    font-family: Inter;
+    font-weight: 700;
+    color: #4166f5;
+    text-decoration: underline;
+    text-decoration-color: #4166f5;
 }

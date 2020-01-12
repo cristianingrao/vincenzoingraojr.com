@@ -18,6 +18,22 @@
         </div>
         <div class="row">
             <div class="col-max">
+                <div class="articles-row">
+                    {{if .PrevInSection}}
+                    <div class="mid-col-sx">
+                        <a class="article-link" href="{{.PrevInSection.Permalink}}" title="{{.PrevInSection.Title}}">← Articolo precedente</a>
+                    </div>
+                    {{end}}
+                    {{if .NextInSection}}
+                    <div class="mid-col-dx">
+                        <a class="article-link" href="{{.NextInSection.Permalink}}" title="{{.NextInSection.Title}}">Articolo successivo →</a>
+                    </div>
+                    {{end}}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-max">
                 {{ partial "comments.html" . }}
             </div>
         </div>
