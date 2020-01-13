@@ -733,17 +733,20 @@ h4.sidebar-title {
     visibility: visible;
     width: 100%;
     display: row;
-    margin-bottom: 20px;
 }
 .mid-col-dx {
     width: 49.666%;
     display: table-cell;
     float: right;
+    margin-bottom: 10px;
+    text-align: right;
 }
 .mid-col-sx {
     width: 49.666%;
     display: table-cell;
     float: left;
+    margin-bottom: 10px;
+    text-align: left;
 }
 a.article-link {
     font-family: Inter;
