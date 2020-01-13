@@ -733,21 +733,22 @@ h4.sidebar-title {
     visibility: visible;
     width: 100%;
     display: row;
+    margin-bottom: 10px;
 }
 .mid-col-dx {
     width: 49.666%;
     display: table-cell;
     float: right;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: 7.5px;
+    margin-bottom: 10px;
     text-align: right;
 }
 .mid-col-sx {
     width: 49.666%;
     display: table-cell;
     float: left;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: 7.5px;
+    margin-bottom: 10px;
     text-align: left;
 }
 a.article-link {
