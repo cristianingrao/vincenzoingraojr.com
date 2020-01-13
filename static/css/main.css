@@ -738,14 +738,16 @@ h4.sidebar-title {
     width: 49.666%;
     display: table-cell;
     float: right;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
     text-align: right;
 }
 .mid-col-sx {
     width: 49.666%;
     display: table-cell;
     float: left;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
     text-align: left;
 }
 a.article-link {
