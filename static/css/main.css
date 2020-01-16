@@ -371,7 +371,7 @@ label {
         width: 0%;
         background-color: #4166f5;
         position: fixed;
-        transition: ease width .4s
+        transition: width .4s ease;
     }
     .container-fluid {
         width: 100%;
