@@ -2,7 +2,7 @@
 title: "Presentazioni"
 date: 2020-01-01
 description: "Le mie presentazioni e le mie intenzioni."
-tempo_lettura: 2-4 minuti
+tempo_lettura: 2-3 minuti
 ---
 Internet è uno strumento dalle mille potenzialità, ma allo stesso tempo è un luogo sia meraviglioso, sia macabro. Tutto sta nel come lo si usa e in quali luoghi "virtuali" si va. È ovviamente una cosa che si suole dire e anche banale, ma trovo che sia **una buona premessa per iniziare questo articolo**. Internet consente la trasmissione di informazioni di vario tipo, che viaggiano nelle sue reti intrecciate sotto le sembianze di pacchetti numerati, e questo vi permette di leggere le parole che sto scrivendo e a me di scriverle.  
 Questo è il mio sito web, statico e funzionale, scritto in <mark>HTML/CSS/Javascript</mark>, gli articoli sono formattati in **Markdown**, ed è generato col framework <a href="https://gohugo.io/" target="_blank" title="Hugo Framework, creato da Steve Francia">Hugo</a> e ospitato da <a href="https://www.netlify.com/" target="_blank" title="La piattaforma Netlify">Netlify</a>. 
