@@ -31,7 +31,6 @@
       return window.open((e.target.getAttribute('data-original') || e.target.src), '_blank')
     }
 
-    if (target.width >= ($(window).width() - Zoom.OFFSET)) return
 
     this._activeZoomClose(true)
 
