@@ -371,6 +371,7 @@ label {
         width: 0%;
         background-color: #4166f5;
         position: fixed;
+        overflow: none;
     }
     .container-fluid {
         width: 100%;
@@ -393,13 +394,15 @@ label {
         margin-bottom: 10px;
     }
     .m-menu-list {
-        overflow: auto;
+        overflow-y: auto;
         margin-right: 60px;
         margin-left: 10px;
         list-style-type: "/ ";
         font-size: 20px;
         font-weight: 700;
         list-style-position: outside;
+        margin-bottom: 20px;
+        z-index: 3;
     }
     .m-menu-list li {
         margin-bottom: 8px;
