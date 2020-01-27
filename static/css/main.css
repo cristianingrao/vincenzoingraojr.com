@@ -1,5 +1,18 @@
 html {
     background-color: #fff;
+    scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb { 
+    background: #C2C2C2; 
+}
+::-webkit-scrollbar-thumb:hover { 
+    background: #A3A3A3; 
+}
+::-webkit-scrollbar-thumb:active { 
+    background: #8F8F8F; 
 }
 @font-face {
     font-family: 'Inter';
