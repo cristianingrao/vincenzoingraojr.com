@@ -273,6 +273,10 @@ label {
         margin-left: 20px;
         margin-bottom: 71px;
     }
+    div.d-paragraph, h1.d-single {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     h3.form-subtitle {
         color: black;
         margin-top: 10px;
@@ -780,4 +784,8 @@ img.zoom-img {
 .zoom-overlay-open,
 .zoom-overlay-transitioning {
     cursor: default;
+}
+div.d-paragraph, h1.d-single {
+    margin-left: 90px;
+    margin-right: 90px;
 }
