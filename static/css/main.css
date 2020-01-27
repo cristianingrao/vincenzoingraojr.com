@@ -785,7 +785,7 @@ img.zoom-img {
 .zoom-overlay-transitioning {
     cursor: default;
 }
-div.d-paragraph, h1.d-single {
+.d-paragraph, .d-single {
     margin-left: 90px;
     margin-right: 90px;
 }
