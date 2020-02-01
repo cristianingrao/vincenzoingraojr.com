@@ -393,7 +393,7 @@ label {
         visibility: visible;
         display: block;
         top: 0;
-        bottom: 51px;
+        bottom: 51.333px;
     }
     input[type="checkbox"]:checked ~ span.span-menu {
         background-color: black;
@@ -404,7 +404,7 @@ label {
         top: 0;
         left: 0;
         right: 0;
-        bottom: 51px;
+        bottom: 51.333px;
         width: 0%;
         background-color: #4166f5;
         position: fixed;
