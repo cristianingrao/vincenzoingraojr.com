@@ -318,6 +318,7 @@ label {
         padding-bottom: 12px;
         padding-left: 2px;
         background-color: #fff;
+        z-index: 2;
     }
     .site-title {
         display: none;
@@ -392,7 +393,7 @@ label {
         visibility: visible;
         display: block;
         top: 0;
-        bottom: 51.51px;
+        bottom: 51px;
     }
     input[type="checkbox"]:checked ~ span.span-menu {
         background-color: black;
@@ -403,10 +404,11 @@ label {
         top: 0;
         left: 0;
         right: 0;
-        bottom: 51.51px;
+        bottom: 51px;
         width: 0%;
         background-color: #4166f5;
         position: fixed;
+        z-index: 1;
     }
     .container-fluid {
         width: 100%;
