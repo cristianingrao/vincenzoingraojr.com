@@ -470,7 +470,7 @@ label {
     .col-r {
         width: 100%;
         display: block;
-        padding: none;
+        padding: 0;
     }
     .col-l {
         width: 100%;
