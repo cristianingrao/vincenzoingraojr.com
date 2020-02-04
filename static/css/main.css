@@ -567,6 +567,10 @@ label.form-label:hover, label.form-label:active {
     font-size: 16px;
     box-sizing: border-box;
     transition: ease .4s;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 3px;
 }
 .form-text-message {
     resize: none;
@@ -578,6 +582,10 @@ label.form-label:hover, label.form-label:active {
     font-size: 16px;
     box-sizing: border-box;
     transition: ease .4s;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 .form-text:focus, .form-text:hover, .form-text-message:focus, .form-text-message:hover {
     border: 2px solid #4166f5;
