@@ -570,7 +570,7 @@ label.form-label:hover, label.form-label:active {
     padding-left: 6px;
     padding-right: 6px;
     padding-top: 2px;
-    padding-bottom: 3px;
+    padding-bottom: 2px;
 }
 .form-text-message {
     resize: none;
