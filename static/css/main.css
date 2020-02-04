@@ -566,6 +566,7 @@ label.form-label:hover, label.form-label:active {
     font-family: Inter;
     font-size: 16px;
     box-sizing: border-box;
+    transition: ease .4s;
 }
 .form-text-message {
     resize: none;
@@ -576,9 +577,10 @@ label.form-label:hover, label.form-label:active {
     font-family: Inter;
     font-size: 16px;
     box-sizing: border-box;
+    transition: ease .4s;
 }
 .form-text:focus, .form-text:hover, .form-text-message:focus, .form-text-message:hover {
-    border: 1px solid #4166f5;
+    border: 2px solid #4166f5;
     outline: none !important;
 }
 div.form-div {
