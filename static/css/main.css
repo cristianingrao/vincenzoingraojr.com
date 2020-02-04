@@ -1,7 +1,6 @@
 html {
     background-color: #fff;
     scrollbar-width: thin;
-    outline: none !important;
 }
 ::-webkit-scrollbar {
     width: 6px;
@@ -580,6 +579,7 @@ label.form-label:hover, label.form-label:active {
 }
 .form-text:focus, .form-text:hover, .form-text-message:focus, .form-text-message:hover {
     border: 1px solid #4166f5;
+    outline: none !important;
 }
 div.form-div {
     margin-bottom: 4px;
