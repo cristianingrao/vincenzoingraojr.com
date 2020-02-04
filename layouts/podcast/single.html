@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+<main>
+    <div class="container">
+        <div class="date-div">{{ .Date.Day }} {{ index $.Site.Data.mesi (printf "%d" .Date.Month) }} {{ .Date.Year }}</div>
+        <h1 class="d-single">{{.Title}}</h1>
+        <div class="d-paragraph">
+            {{.Content}}
+        </div>
+        <div class="d-single">
+            {{ partial "comments.html" . }}
+        </div>
+    </div>
+</main>
+{{ partial "sides.html" . }}

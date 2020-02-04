@@ -1,6 +1,7 @@
 html {
     background-color: #fff;
     scrollbar-width: thin;
+    outline: transparent;
 }
 ::-webkit-scrollbar {
     width: 6px;
@@ -12,7 +13,7 @@ html {
     background: #A3A3A3; 
 }
 ::-webkit-scrollbar-thumb:active { 
-    background: #8F8F8F; 
+    background: #8F8F8F;
 }
 ::-webkit-scrollbar-track {
     background: #F5F5F5;
@@ -289,7 +290,7 @@ label {
         margin-left: 20px;
         margin-bottom: 71px;
     }
-    div.d-paragraph, h1.d-single {
+    div.d-paragraph, h1.d-single, div.date-div, div.d-single {
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -358,6 +359,7 @@ label {
         background-color: black;
         width: 30px;
         height: 1px;
+        transition: all ease .4s;
     }
     input[type="checkbox"]:checked ~ label {
         top: 12px;
@@ -389,8 +391,7 @@ label {
         transform: translateY(-17px) rotateZ(-45deg);
     }
     input[type="checkbox"]:checked ~ .m-menu {
-        width: 100%;
-        visibility: visible;
+        opacity: 1;
         display: block;
         top: 0;
         bottom: 51.333px;
@@ -399,16 +400,18 @@ label {
         background-color: black;
     }
     .m-menu {
-        display: none;
-        visibility: hidden;
+        opacity: 0;
+        display: block;
+        visibility: visible;
         top: 0;
         left: 0;
         right: 0;
         bottom: 51.333px;
-        width: 0%;
+        width: 100%;
         background-color: #4166f5;
         position: fixed;
         z-index: 1;
+        transition: all ease .4s;
     }
     .container-fluid {
         width: 100%;
@@ -658,7 +661,7 @@ img {
 .article {
     color: black;
     border-bottom: 1px solid black;
-    margin-bottom: 3px;
+    margin-bottom: 27px;
     margin-top: 6px;
 }
 a.link-article {
@@ -803,7 +806,12 @@ img.zoom-img {
 .zoom-overlay-transitioning {
     cursor: default;
 }
-.d-paragraph, .d-single {
+.d-paragraph, .d-single, .date-div {
     margin-left: 90px;
     margin-right: 90px;
+}
+.date-div {
+    font-family: Inter;
+    font-weight: 700;
+    color: #4166f5;
 }
