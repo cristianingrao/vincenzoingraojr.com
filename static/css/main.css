@@ -359,7 +359,6 @@ label {
         background-color: black;
         width: 30px;
         height: 1px;
-        transition: all ease .4s;
     }
     input[type="checkbox"]:checked ~ label {
         top: 12px;
@@ -394,6 +393,8 @@ label {
         opacity: 1;
         display: block;
         top: 0;
+        left: 0;
+        right: 0;
         bottom: 51.333px;
     }
     input[type="checkbox"]:checked ~ span.span-menu {
@@ -401,17 +402,16 @@ label {
     }
     .m-menu {
         opacity: 0;
-        display: block;
+        display: none;
         visibility: visible;
+        width: 100%;
         top: 0;
         left: 0;
         right: 0;
         bottom: 51.333px;
-        width: 100%;
         background-color: #4166f5;
         position: fixed;
         z-index: 1;
-        transition: all ease .4s;
     }
     .container-fluid {
         width: 100%;
