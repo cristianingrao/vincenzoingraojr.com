@@ -1,5 +1,5 @@
-baseURL = "https://vincenzoingraojr.netlify.com/"
+baseURL = "https://vincenzoingraojr.com/"
 languageCode = "it-it"
-title = "Vincenzo Ingrao"
+title = "Vincenzo Ingrao Jr."
 [markup.goldmark.renderer]
     unsafe= true
