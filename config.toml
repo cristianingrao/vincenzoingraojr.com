@@ -1,4 +1,4 @@
-baseURL = "https://vincenzoingrao.com/"
+baseURL = "https://vincenzoingraojr.netlify.com/"
 languageCode = "it-it"
 title = "Vincenzo Ingrao"
 [markup.goldmark.renderer]
