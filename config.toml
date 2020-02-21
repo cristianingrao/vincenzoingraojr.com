@@ -1,4 +1,4 @@
-baseURL = "https://vincenzoingraojr.com/"
+baseURL = "https://vincenzoingraojr.com"
 languageCode = "it-it"
 title = "Vincenzo Ingrao Jr."
 [markup.goldmark.renderer]
