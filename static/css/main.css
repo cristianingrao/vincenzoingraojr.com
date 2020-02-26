@@ -51,6 +51,19 @@ a {
 a:hover, a:active {
     color: #D80000;
 }
+mark {
+    background-color: yellow;
+    color: black;
+}
+::selection {
+    background-color: #D80000;
+    color: #fff;
+}
+::-moz-selection {
+    background-color: #D80000;
+    color: #fff;
+}
+
 @media (max-width: 992px) {
     .container {
         margin-top: 40px;
