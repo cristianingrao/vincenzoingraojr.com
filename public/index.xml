@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vincenzo Ingrao</title>
+    <link>https://vincenzoingrao.com/</link>
+    <description>Recent content on Vincenzo Ingrao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    
+	<atom:link href="https://vincenzoingrao.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Info e contatti</title>
+      <link>https://vincenzoingrao.com/info-e-contatti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincenzoingrao.com/info-e-contatti/</guid>
+      <description>Mi presento: il mio nome è Vincenzo Ingrao Junior.
+Sono un ragazzo di 17 anni, amante della fisica e dell&#39;informatica. Mi piace tanto leggere e vorrei iniziare a correre seriamente. Questo sito è un modo per condividere nozioni di carattere scientifico e cerco di farlo nel modo più preciso possibile.
+Di seguito trovi un modulo per contattarmi, ma puoi farlo anche tramite WhatsApp. Ecco il numero: 3312768796.
+Compila il seguente modulo se vuoi contattarmi.</description>
+    </item>
+    
+    <item>
+      <title>La newsletter</title>
+      <link>https://vincenzoingrao.com/newsletter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincenzoingrao.com/newsletter/</guid>
+      <description>Nel mio sito parlo di tecnologia, precisamente tento di trasmettere ciò che sento durante la spiegazione di un apparato tecnologico, e tento anche di spiegare come dovrebbe essere utilizzata la tecnologia per trarne benefici.
+Inoltre, spiego semplicemente i vari concetti della fisica e della chimica (e delle scienze generalmente). Quindi, iscriviti alla mia newsletter per restare sempre aggiornato sulla pubblicazione dei contenuti. Puoi iscriverti anche da qui.
+Compila il seguente modulo per iscriverti alla newsletter.</description>
+    </item>
+    
+  </channel>
+</rss>

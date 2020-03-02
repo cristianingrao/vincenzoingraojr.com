@@ -1,2 +1,2 @@
-# vincenzoingraojr.com
-File per il sito web statico personale vincenzoingraojr.com
+# vincenzoingrao.com
+File per il sito web statico personale vincenzoingrao.com

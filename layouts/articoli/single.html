@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+<main>
+    <div class="container">
+        <h1>{{.Title}}</h1>
+        <div class="information">
+            <b>Online dal</b> {{ .Date.Day }} {{ index $.Site.Data.mesi (printf "%d" .Date.Month) }} {{ .Date.Year }}
+        </div>
+        <div class="row">
+            <div class="col-max">
+                <div class="paragraph">
+                    {{.Content}}
+                </div>
+            </div>
+            <div class="col-min">
+                {{ partial "libri.html" . }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-max">
+                {{ partial "comments.html" . }}
+            </div>
+        </div>
+    </div>
+</main>
+{{ partial "sides.html" . }}
