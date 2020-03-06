@@ -228,6 +228,9 @@ img {
         padding: 0px 0px;
         border-left: 1px solid #969696;
     }
+    .side-content {
+        line-height: 40px;
+    }
     .site-title, .header-nav {
         display: none; 
         visibility: hidden;
@@ -238,5 +241,8 @@ img {
     }
     .articles-list {
         margin-left: 0px;
+    }
+    .g-div {
+        padding: 20px 20px;
     }
 }
