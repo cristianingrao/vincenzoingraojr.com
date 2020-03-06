@@ -97,7 +97,7 @@ header {
     transform: rotate(-90deg);
     transform-origin: left top bottom;
     box-sizing: border-box;
-    width: 80px;
+    width: 70px;
     bottom: 30px;
     position: fixed;
     font-size: 12px;
@@ -229,7 +229,7 @@ img {
         border-left: 1px solid #969696;
     }
     .side-content {
-        line-height: 40px;
+        line-height: 80px;
     }
     .site-title, .header-nav {
         display: none; 
