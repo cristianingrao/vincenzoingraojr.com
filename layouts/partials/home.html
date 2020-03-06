@@ -3,7 +3,7 @@
         <h1>Ciao!</h1>
         <div class="row">
             <div class="col-medium">
-                Il mio nuovo sito. Sarebbe la terza versione, con un nuovo font e con una nuova filosofia. È scritto sempre in HTML, CSS e JavaScript.
+                Il mio nuovo sito. Si tratta di una completa ristrutturazione della precedente versione, con una migliore usabilità e un design più fine. Però mantenuto lo stile della scrittura (il rigore e la precisione, caratteristiche tipiche della scienza). È sempre un deposito mnemonico.
             </div>
             <div class="col-medium">
                 <img src="/immagini/workflow.png" title="Workflow"/>
@@ -12,13 +12,19 @@
     </div>
     <div class="row">
         <div class="col-medium">
-            <div class="articles-list">
+            <div class="article-list">
                 <h2>Articoli che vale la pena leggere.</h2>
                 <div class="article">
-                    <img src="/immagini/articoli/"/>
-                    <a class="article-title" href="/articoli/">Presentazioni</a>
+                    <img src="/immagini/articoli/presentazioni/primo-articolo-vincenzoingraojr.png" title="Articolo di presentazioni."/>
+                    <a class="article-title" href="/articoli/presentazioni">Presentazioni</a>
+                    <div class="article-summary">
+                        In questo articolo mi presento, e quindi parlo di me, del sito, delle mie passioni e anche delle mie aspirazioni. <a href="/articoli/presentazioni">Continua a leggere →</a>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="col-medium">
+            {{ partial "libri.html" . }}
         </div>
     </div>
 </div>
