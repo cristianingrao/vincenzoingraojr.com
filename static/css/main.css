@@ -310,7 +310,7 @@ form label {
     margin-bottom: 10px;
     transition: border ease .4s;
     border-radius: 2px;
-    color: #969696;
+    color: #606060;
     box-sizing: border-box;
 }
 .text-message {
@@ -326,7 +326,7 @@ form label {
     transition: border ease .4s;
     resize: none;
     border-radius: 2px;
-    color: #969696;
+    color: #606060;
     box-sizing: border-box;
 }
 .text:hover, .text:active, .text-message:hover, .text-message:active {
