@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+<div class="container">
+    <div class="row">
+        <div class="col-max">
+            <h1>{{.Title}}</h1>
+        </div>
+        <div class="col-min">
+            <div class="article-info">
+                <b>Online dal</b><div>{{ .Date.Day }} {{ index $.Site.Data.mesi (printf "%d" .Date.Month) }} {{ .Date.Year }}</div>
+                <b>Tempo di lettura</b><div>{{.Params.tempo_di_lettura}}</div>
+                <b>Discussione</b><div><a href="#commenti">Commenti</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-max">
+            {{.Content}}
+        </div>
+        <div class="col-min">
+            {{ partial "libri.html" . }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-max"><a name="commenti"></a>
+            {{ partial "comments.html" . }}
+        </div>
+    </div>
+</div>
+{{ partial "sides.html" . }}

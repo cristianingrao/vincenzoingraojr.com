@@ -55,7 +55,7 @@ p, div {
     margin-top: 150px;
     margin-left: 110px;
     margin-right: 110px;
-    margin-bottom: 110px;
+    margin-bottom: 90px;
 }
 a {
     color: #303030;
@@ -196,6 +196,24 @@ header {
     padding-left: 18px;
     margin-bottom: none;
 }
+.col-max {
+    width: 75%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding-right: 18px;
+    margin-bottom: none;
+}
+.col-min {
+    width: 22.5%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding-left: 18px;
+    margin-bottom: none;
+}
 img {
     width: 100%;
     height: auto;
@@ -240,10 +258,122 @@ a.article-title {
     margin-left: 110px;
     margin-right: 110px;
 }
-input:focus {
+input:focus, *:focus {
     outline: none;
 }
+.subtitle {
+    color: #606060;
+}
+.article-info {
+    text-align : right;
+}
+b, strong {
+    color: #303030;
+}
+.article-info div {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.comments-button {
+    font-family: Montserrat;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #303030;
+    color: #fff;
+    height: 40px;
+    transition: background-color ease .4s, color ease .4s;
+    border: none;
+}
+.comments-button:hover, .comments-button:active {
+    color: black;
+    background-color: yellow;
+}
+.article-info a {
+    color: #606060;
+    text-decoration: none;
+}
+form label {
+    font-size: 14px;
+    color: #303030;
+    font-weight: 700;
+}
+.text {
+    width: 100%;
+    border: 1px solid #606060;
+    font-size: 18px;
+    font-family: Montserrat;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    transition: border ease .4s;
+    border-radius: 2px;
+    color: #969696;
+    box-sizing: border-box;
+}
+.text-message {
+    width: 100%;
+    border: 1px solid #606060;
+    font-size: 18px;
+    font-family: Montserrat;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    transition: border ease .4s;
+    resize: none;
+    border-radius: 2px;
+    color: #969696;
+    box-sizing: border-box;
+}
+.text:hover, .text:active, .text-message:hover, .text-message:active {
+    border: 1px solid #303030;
+}
+input[type="submit"] {
+    font-family: Montserrat;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #303030;
+    color: #fff;
+    height: 40px;
+    transition: background-color ease .4s, color ease .4s;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"]:hover, input[type="submit"]:active {
+    color: black;
+    background-color: yellow;
+}
+.newsletter-promo {
+    margin-bottom: 10px;
+}
+.first-letter {
+    float: left;
+    color: #303030;
+    font-size: 72px;
+    line-height: 40px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;  
+}
+figure {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.caption {
+    font-size: 14px;
+    font-weight: 700;
+    color: #303030;
+}
 @media (max-width: 992px) {
+    .article-info {
+        text-align: left;
+    }
     .default {
         margin-left: 0px;
         margin-right: 0px;
@@ -258,7 +388,7 @@ input:focus {
         display: block;
         width: 100%;
     }
-    .col-medium {
+    .col-medium, .col-max, .col-min {
         width: 100%;
         display: block;
         margin-bottom: 10px;
@@ -281,7 +411,18 @@ input:focus {
     }
     .side-content {
         width: 70px;
-        line-height: 80px;
+        line-height: 70px;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        transform-origin: right top bottom;
+        box-sizing: border-box;
+        bottom: 30px;
+        position: fixed;
+        font-size: 12px;
+        display: table-cell;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        background-color: #fff;
     }
     .site-title, .header-nav {
         display: none; 
