@@ -255,8 +255,8 @@ a.article-title {
     padding-bottom: 10px;
 }
 .default {
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 input:focus, *:focus {
     outline: none;
