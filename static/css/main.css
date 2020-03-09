@@ -255,8 +255,8 @@ a.article-title {
     padding-bottom: 10px;
 }
 .default {
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 input:focus, *:focus {
     outline: none;
@@ -360,10 +360,6 @@ input[type="submit"]:hover, input[type="submit"]:active {
     padding-right: 2px;
     padding-bottom: 2px;
     font-weight: 700;  
-}
-figure {
-    margin-left: 0px;
-    margin-right: 0px;
 }
 .caption {
     font-size: 14px;
