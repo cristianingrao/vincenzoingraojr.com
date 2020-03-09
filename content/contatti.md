@@ -15,7 +15,7 @@ C'è anche un'<a href="mailto:email@vincenzoingraojr.com">email</a>.
     <textarea id="message" type="text" name="message" rows="4" class="text-message"></textarea>
     <input type="submit" value="INVIA">
 </form>
-<h2>Iscriviti alla mia newsletter</h2>
+<h2>Iscriviti alla mia newsletter.</h2>
 <div class="newsletter-promo">
 Nel mio sito parlo di tecnologia, precisamente tento di trasmettere ciò che sento durante la spiegazione di un apparato tecnologico, e tento anche di spiegare come dovrebbe essere utilizzata la tecnologia <mark>per trarne benefici</mark>.  
 Inoltre, spiego semplicemente i vari concetti della fisica e della chimica (e delle scienze generalmente). Quindi, iscriviti alla mia newsletter per restare sempre aggiornato sulla pubblicazione dei contenuti. Se il modulo a seguire non funziona puoi farlo da <a href="https://tinyletter.com/vincenzoingraojr">qui</a>. 
