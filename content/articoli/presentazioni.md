@@ -1,6 +1,6 @@
 ---
 title: "Mi presento"
-date: 2019-03-07
+date: 2020-03-07
 tempo_di_lettura: 2-4 minuti
 ---
 <span class="first-letter">I</span>nternet è uno strumento dalle mille potenzialità, ma allo stesso tempo è un luogo sia meraviglioso, sia macabro. Tutto sta nel come lo si usa e in quali luoghi "virtuali" si va. È ovviamente una cosa che si suole dire e anche banale, ma trovo che sia <b>una buona premessa per iniziare questo articolo</b>. Internet consente la trasmissione di informazioni di vario tipo, che viaggiano nelle sue reti intrecciate sotto le sembianze di pacchetti numerati, e questo vi permette di leggere le parole che sto scrivendo e a me di scriverle.  
