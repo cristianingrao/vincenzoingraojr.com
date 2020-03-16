@@ -361,6 +361,22 @@ input[type="submit"]:hover, input[type="submit"]:active {
     padding-bottom: 2px;
     font-weight: 700;  
 }
+fieldset {
+    border-color: 1px solid #606060;
+    border-radius: 8px; 
+}
+legend {
+    color: #303030;
+}
+table {
+    width: 100%;
+    height: auto;
+}
+th {
+    background-color: #606060;
+    color: #fff;
+    font-weight: 700;
+}
 @media (max-width: 992px) {
     .article-info {
         text-align: left;
