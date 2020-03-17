@@ -527,6 +527,7 @@ th {
         padding-left: 0px;
     }
     .book-list {
+        display: block;
         margin-right: 0px;
     }
 }
