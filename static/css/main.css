@@ -460,7 +460,8 @@ th {
         left: 0;
         right: 0;
         bottom: 0;
-        background: #606060;
+        background: #303030;
+        border-radius: 2px;
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
         -webkit-transform-origin: 50% 100%;
