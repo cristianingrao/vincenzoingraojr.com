@@ -400,6 +400,7 @@ th {
     header {
         visibility: visible;   
         border-top: 1px solid #969696;
+        border-bottom: none;
         top: unset;
         bottom: 0;
         left: 0;
