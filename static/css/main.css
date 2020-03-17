@@ -151,7 +151,7 @@ header {
     text-decoration: none;
     padding-right: 20px;
 }
-.header-nav a:hover, .header-nav:active {
+.header-nav a:hover, .header-nav a:active {
     color: #303030;
     text-decoration: underline;
     text-decoration-color: yellow;
