@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <div class="container">
     <h1>{{.Title}}</h1>
-    <h4 class="subtitle">Tutti gli articoli che ho scritto.</h4>
+    <h4 class="subtitle"><span id="typed"></span></h4>
     <div class="row">
         <div class="col-medium">
             <div class="article-list">
@@ -16,4 +16,12 @@
         </div>
     </div>
 </div>
+<script>
+    var typed = new Typed('#typed',{
+         strings:["Tutti gli articoli che ho scritto."],
+         backSpeed: 50,
+         typeSpeed: 60,
+         loop: false
+    });
+</script>
 {{ partial "sides.html" . }}

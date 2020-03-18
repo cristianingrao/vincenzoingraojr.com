@@ -219,7 +219,7 @@ header {
     margin-bottom: none;
 }
 .col-max {
-    width: 75%;
+    width: 72.5%;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -228,7 +228,7 @@ header {
     margin-bottom: none;
 }
 .col-min {
-    width: 22.5%;
+    width: 24.5%;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -240,6 +240,14 @@ img {
     width: 100%;
     height: auto;
     border-radius: 8px;
+}
+figure {
+    margin: 0;
+}
+figcaption {
+    font-size: 12px;
+    color: #303030;
+    font-weight: 700;
 }
 .mobile-header {
     visibility: hidden;
