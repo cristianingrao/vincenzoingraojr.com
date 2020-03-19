@@ -90,7 +90,25 @@ header {
     left: 0;
     right: 0;
     background-color: #fff;
-    border-bottom: 1px solid #969696;
+    border-bottom: 2px solid #969696;
+    animation: color-changing 5s infinite alternate;
+}
+@keyframes color-changing {
+    0% {
+        border-color: #969696;
+    }
+    25% {
+        border-color: yellow;
+    }
+    50% {
+        border-color: #303030;
+    }
+    75% {
+        border-color: yellow;
+    }
+    100% {
+        border-color: #969696;
+    }
 }
 .site-title a {
     font-size: 22px;
@@ -136,12 +154,14 @@ header {
 .right-side {
     float: right;
     right: 0;
-    border-left: 1px solid #969696;
+    border-left: 2px solid #969696;
+    animation: color-changing 5s infinite alternate;
 }
 .left-side {
     float: left;
     left: 0;
-    border-right: 1px solid #969696;
+    border-right: 2px solid #969696;
+    animation: color-changing 5s infinite alternate;
 }
 .side-content a {
     text-decoration: none;
@@ -408,6 +428,7 @@ th {
     header {
         visibility: visible;   
         border-top: 1px solid #969696;
+        animation: color-changing 5s infinite alternate;
         border-bottom: none;
         top: unset;
         bottom: 0;
