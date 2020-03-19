@@ -24,4 +24,9 @@ Inoltre, spiego semplicemente i vari concetti della fisica e della chimica (e de
     <label for="tlemail">Il tuo indirizzo email</label>
     <input id="tlemail" type="text" name="email" class="text"/>
     <input type="submit" value="ISCRIVITI">
-</form>       
+</form>
+<div class="m-social-div">
+<h4>Seguimi sui social.</h4>
+Puoi seguirmi anche sui social: 
+<a href="https://instagram.com/vincenzoingraojr" target="_blank" title="Seguimi su Instagram">instagram</a><a href="https://twitter.com/vincenzoingraoj" target="_blank" title="Seguimi pure su Twitter">twitter</a><a href="https://it.linkedin.com/in/vincenzo-ingrao-jr-5119711a2?trk=people-guest_people_search-card" target="_blank" title="Cercami su Linkedin">linkedin</a><a href="https://t.me/vincenzoingrao" target="_blank" title="Entra nel mio canale Telegram">telegram</a>
+</div>
