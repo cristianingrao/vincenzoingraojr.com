@@ -27,6 +27,5 @@ Inoltre, spiego semplicemente i vari concetti della fisica e della chimica (e de
 </form>
 <div class="m-social-div">
 <h4>Seguimi sui social.</h4>
-Puoi seguirmi anche sui social: 
-<a href="https://instagram.com/vincenzoingraojr" target="_blank" title="Seguimi su Instagram">instagram</a><a href="https://twitter.com/vincenzoingraoj" target="_blank" title="Seguimi pure su Twitter">twitter</a><a href="https://it.linkedin.com/in/vincenzo-ingrao-jr-5119711a2?trk=people-guest_people_search-card" target="_blank" title="Cercami su Linkedin">linkedin</a><a href="https://t.me/vincenzoingrao" target="_blank" title="Entra nel mio canale Telegram">telegram</a>
+Puoi seguirmi su <a href="https://instagram.com/vincenzoingraojr" class="instagram" target="_blank" title="Seguimi su Instagram">instagram</a>, su <a href="https://twitter.com/vincenzoingraoj" class="twitter" target="_blank" title="Seguimi pure su Twitter">twitter</a>, su <a href="https://www.linkedin.com/in/vincenzoingraojr" class="linkedin" target="_blank" title="Cercami su Linkedin">linkedin</a> oppure puoi entrare nel mio canale <a href="https://t.me/vincenzoingrao" class="telegram" target="_blank" title="Entra nel mio canale Telegram">telegram</a>.
 </div>

@@ -567,12 +567,22 @@ th {
         display: block;
         visibility: visible;
     }
-    .m-social-div a {
-        margin-right: 3%;
-        font-size: 16px;
-        text-decoration: none;
-    }
     .m-social-div h4 {
         margin-bottom: 10px;
+    }
+    .m-social-div a {
+        text-decoration: none;
+    }
+    .instagram {
+        color: #E1306C;
+    }
+    .twitter {
+        color: #1DA1F2;
+    }
+    .linkedin {
+        color: #2867B2;
+    }
+    .telegram {
+        color: #0088CC;
     }
 }
