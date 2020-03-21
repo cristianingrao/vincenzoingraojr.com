@@ -505,7 +505,11 @@ THEMES:
 .os-theme-dark > .os-scrollbar-vertical,
 .os-theme-light > .os-scrollbar-vertical {
     bottom: 10px;
-    width: 10px;
+    width: 6px;
+    transition: width ease .3s;
+}
+.os-scrollbar-vertical:hover, .os-scrollbar-vertical:active, .os-scrollbar-vertical:focus {
+    width: 12px;
 }
 .os-theme-dark.os-host-rtl > .os-scrollbar-horizontal,
 .os-theme-light.os-host-rtl > .os-scrollbar-horizontal {
@@ -552,7 +556,7 @@ THEMES:
 .os-theme-light > .os-scrollbar > .os-scrollbar-track > .os-scrollbar-handle,
 .os-theme-dark > .os-scrollbar > .os-scrollbar-track,
 .os-theme-light > .os-scrollbar > .os-scrollbar-track {
-    border-radius: 10px;
+    border-radius: 0px;
 }
 .os-theme-dark > .os-scrollbar > .os-scrollbar-track > .os-scrollbar-handle {
     background: rgba(0, 0, 0, 0.4);
