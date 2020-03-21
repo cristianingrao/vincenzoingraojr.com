@@ -606,7 +606,9 @@ THEMES:
     left: -2px;
 }
 @media (max-width: 800px) {
-    .os-host {
-        visibility: hidden;
+    .os-theme-dark > .os-scrollbar-vertical,
+    .os-theme-light > .os-scrollbar-vertical {
+        bottom: 10px;
+        width: 5px;
     }
 }
