@@ -7,7 +7,7 @@ tempo_di_lettura: 2-4 minuti
 Questo è il mio sito web, statico e funzionale, scritto in HTML/CSS/Javascript, gli articoli sono formattati in Markdown, ed è generato col framework <a href="https://gohugo.io" title="Il migliore framework per generare siti web statici" target="_blank">Hugo</a> e ospitato da <a href="https://www.netlify.com/" title="Per lavorare è ottimo!" target="_blank">Netlify</a>.
 
 <figure>
-<img src="/immagini/articoli/presentazioni/workflow.png" title="Workflow"/>
+<a href="/immagini/articoli/presentazioni/workflow.png" data-lightbox="image-1" data-title="Il sito è stato creato utilizzando Visual Studio Code. Questo è quello che ho visto per tante ore."><img src="/immagini/articoli/presentazioni/workflow.png" title="Workflow"/></a>
 <figcaption>Il sito è stato creato utilizzando Visual Studio Code. Questo è quello che ho visto per tante ore.</figcaption>
 </figure>  
 
