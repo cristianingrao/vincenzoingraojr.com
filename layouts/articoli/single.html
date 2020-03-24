@@ -20,6 +20,18 @@
             {{ partial "libri.html" . }}
         </div>
     </div>
+    <div class="b-a-row">
+        {{if .PrevInSection}}
+        <div class="b-a-col-l">
+            <a href="{{.PrevInSection.Permalink}}" title="{{.PrevInSection.Title}}">← Articolo precendente</a>
+        </div>
+        {{end}}
+        {{if .NextInSection}}
+        <div class="b-a-col-r">
+            <a href="{{.NextInSection.Permalink}}" title="{{.NextInSection.Title}}">Articolo successivo →</a>
+        </div>
+        {{end}}
+    </div>
     <div class="row">
         <div class="col-max"><a name="commenti"></a>
             {{ partial "comments.html" . }}

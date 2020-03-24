@@ -582,7 +582,146 @@ th {
     .telegram {
         color: #0088CC;
     }
+    .b-a-row {
+        width: 100%;
+        display: flex;
+        display: -webkit-flex;
+        flex-flow: row nowrap;
+        -webkit-flex-flow: row nowrap;
+        align-items: stretch;
+        -webkit-align-items: stretch;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+    }
+    .b-a-col-r {
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 49%;
+        padding-right: 5px;
+        padding-left: 10px;
+    }
+    .b-a-col-l {
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 49%;
+        padding-right: 10px;
+        padding-left: 5px;
+    }
 }
 p.CookieDeclarationTypeHeader {
     color: #303030;
+}
+.b-a-row {
+    width: 100%;
+    display: table;
+}
+.b-a-col-r {
+    display: table-cell;
+    float: right;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 49%;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.b-a-col-l {
+    display: table-cell;
+    float: left;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 49%;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.b-a-col-l a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.b-a-col-l a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: yellow;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.b-a-col-l a:hover, .b-a-col-l a:focus, .b-a-col-l a:active {
+    color: black;
+}
+.b-a-col-l a:hover:before, .b-a-col-l a:focus:before, .b-a-col-l a:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.b-a-col-r a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.b-a-col-r a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: yellow;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.b-a-col-r a:hover, .b-a-col-r a:focus, .b-a-col-r a:active {
+    color: black;
+}
+.b-a-col-r a:hover:before, .b-a-col-r a:focus:before, .b-a-col-r a:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
 }
