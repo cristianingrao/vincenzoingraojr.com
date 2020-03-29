@@ -597,7 +597,6 @@ ul>li:before {
         color: #0088CC;
     }
     .b-a-row {
-        box-sizing: border-box;
         width: 100%;
         display: table;
     }
@@ -626,9 +625,8 @@ p.CookieDeclarationTypeHeader {
     color: #303030;
 }
 .b-a-row {
-    width: 72.5%;
+    width: 100%;
     display: table;
-    box-sizing: border-box;
 }
 .b-a-col-r {
     display: table-cell;
