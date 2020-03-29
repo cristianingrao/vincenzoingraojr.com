@@ -597,18 +597,14 @@ ul>li:before {
         color: #0088CC;
     }
     .b-a-row {
+        box-sizing: border-box;
         width: 100%;
-        display: flex;
-        display: -webkit-flex;
-        flex-flow: row nowrap;
-        -webkit-flex-flow: row nowrap;
-        align-items: stretch;
-        -webkit-align-items: stretch;
-        justify-content: space-between;
-        -webkit-justify-content: space-between;
+        display: table;
     }
     .b-a-col-r {
+        display: table-cell;
         float: right;
+        text-align: right;
         margin-top: 20px;
         margin-bottom: 20px;
         width: 49%;
@@ -616,7 +612,9 @@ ul>li:before {
         padding-left: 10px;
     }
     .b-a-col-l {
+        display: table-cell;
         float: left;
+        text-align: left;
         margin-top: 20px;
         margin-bottom: 20px;
         width: 49%;
@@ -630,6 +628,7 @@ p.CookieDeclarationTypeHeader {
 .b-a-row {
     width: 72.5%;
     display: table;
+    box-sizing: border-box;
 }
 .b-a-col-r {
     display: table-cell;
