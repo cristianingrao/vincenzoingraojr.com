@@ -434,10 +434,14 @@ ul>li:before {
     background-color: yellow;
     vertical-align: middle;
 }
+.yellow-b, .gray-b {
+    display: none;
+    visibility: hidden;
+}
 @media (max-width: 992px) {
     header {
         visibility: visible;   
-        border-top: 1px solid #969696;
+        border-top: 2px solid #969696;
         animation: color-changing 5s infinite alternate;
         border-bottom: none;
         top: unset;
@@ -448,7 +452,7 @@ ul>li:before {
         padding-bottom: 15px;
         background-color: #fff;
         box-sizing: border-box;
-        margin-left: 0px;
+        margin-left: 4px;
         margin-right: 0px;
     }
     .m-row {
@@ -528,7 +532,7 @@ ul>li:before {
     }
     .container {
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 24px;
         margin-right: 20px;
         margin-bottom: 80px;
     }
@@ -619,6 +623,25 @@ ul>li:before {
         width: 49%;
         padding-right: 10px;
         padding-left: 5px;
+    }
+    .yellow-b, .gray-b {
+        display: block;
+        visibility: visible;
+        position: fixed;
+        height: 50%;
+        width: 4px;
+        left: 0;
+        right: unset;
+    }
+    .yellow-b {
+        background-color: yellow;
+        float: bottom;
+        bottom: 0;
+    }
+    .gray-b {
+        background-color: #303030;
+        float: top;
+        top: 0;
     }
 }
 p.CookieDeclarationTypeHeader {
