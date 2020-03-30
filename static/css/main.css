@@ -435,8 +435,23 @@ ul>li:before {
     vertical-align: middle;
 }
 .yellow-b, .gray-b {
-    display: none;
-    visibility: hidden;
+    display: block;
+    visibility: visible;
+    bottom: 0;
+    top: unset;
+    width: 50%;
+    height: 4px;
+    position: fixed;
+}
+.yellow-b {
+    background-color: yellow;
+    float: left;
+    left: 0;
+}
+.gray-b {
+    background-color: #303030;
+    float: right;
+    right: 0;
 }
 @media (max-width: 992px) {
     header {
