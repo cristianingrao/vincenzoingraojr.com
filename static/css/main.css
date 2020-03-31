@@ -443,6 +443,10 @@ ul>li:before {
     height: 4px;
     position: fixed;
 }
+.div-b {
+    display: block;
+    margin: 0;
+}
 .yellow-b {
     background-color: yellow;
     float: left;
@@ -467,7 +471,7 @@ ul>li:before {
         padding-bottom: 15px;
         background-color: #fff;
         box-sizing: border-box;
-        margin-left: 4px;
+        margin-left: 0px;
         margin-right: 0px;
     }
     .m-row {
@@ -648,10 +652,13 @@ ul>li:before {
         left: 0;
         right: unset;
     }
+    .div-b {
+        display: block;
+        bottom: 48px;
+    }
     .yellow-b {
         background-color: yellow;
         float: bottom;
-        bottom: 0;
     }
     .gray-b {
         background-color: #303030;
