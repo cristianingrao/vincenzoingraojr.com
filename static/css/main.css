@@ -471,8 +471,9 @@ ul>li:before {
         padding-bottom: 15px;
         background-color: #fff;
         box-sizing: border-box;
-        margin-left: 0px;
+        margin-left: 4px;
         margin-right: 0px;
+ 
     }
     .m-row {
         width: 100%;
@@ -653,12 +654,13 @@ ul>li:before {
         right: unset;
     }
     .div-b {
+        position: fixed;
         display: block;
-        bottom: 48px;
     }
     .yellow-b {
         background-color: yellow;
         float: bottom;
+        bottom: 0;
     }
     .gray-b {
         background-color: #303030;
