@@ -614,6 +614,5 @@ THEMES:
     .os-theme-light > .os-scrollbar-vertical {
         bottom: 10px;
         width: 5px;
-        background-color: #969696;
     }
 }
