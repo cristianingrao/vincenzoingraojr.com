@@ -440,7 +440,7 @@ ul>li:before {
     bottom: 0;
     top: unset;
     width: 50%;
-    height: 4px;
+    height: 5px;
     position: fixed;
 }
 .div-b {
@@ -462,7 +462,8 @@ ul>li:before {
         visibility: visible;   
         border-top: 2px solid #969696;
         border-left: 2px solid #969696;
-        border-radius: 8px 0px 0px 0px;
+        border-right: 2px solid #969696;
+        border-radius: 8px 8px 0px 0px;
         animation: color-changing 5s infinite alternate;
         border-bottom: none;
         top: unset;
@@ -474,8 +475,7 @@ ul>li:before {
         background-color: #fff;
         box-sizing: border-box;
         margin-left: 22px;
-        margin-right: 0px;
-
+        margin-right: 22px;
     }
     .m-row {
         width: 100%;
@@ -494,8 +494,8 @@ ul>li:before {
         display: -webkit-flex;
         flex-direction: column;
         -webkit-flex-direction: column;
-        padding-right: 18px;
-        padding-left: 18px;
+        padding-right: 12px;
+        padding-left: 12px;
         margin-bottom: none;
         text-align: center;
     }
@@ -555,7 +555,7 @@ ul>li:before {
     .container {
         margin-top: 20px;
         margin-left: 24px;
-        margin-right: 20px;
+        margin-right: 24px;
         margin-bottom: 80px;
     }
     .row {
@@ -651,7 +651,7 @@ ul>li:before {
         visibility: visible;
         position: fixed;
         height: 50%;
-        width: 4px;
+        width: 5px;
         left: 0;
         right: unset;
     }
